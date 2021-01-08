@@ -8,7 +8,7 @@ header, footer, main {    margin: 1.25remauto;
 }
 
 header, footer {
-    background-color: green;
+    background-color: rgb(7, 5, 121);
     color: white;
     border-radius: 10px;
     
@@ -27,6 +27,7 @@ h1{
 }
 h2{
     border-bottom: 1px solid gray;
+    margin-right: 10.5rem;
     
 }
 
@@ -38,8 +39,21 @@ img{
     float: right;
     box-sizing: border-box;
     width:35%;
-    margin-top: -5.5rem;
+    margin-top: -8.5rem;
     margin-right: .5rem;
     max-width: 150px;
     
+}
+
+footer a {
+    color:white;
+
+}
+
+footer a:hover {
+    color:black;
+}
+
+footer a:visited {
+    color:white;
 }
