@@ -13,9 +13,7 @@
       Bethany Panter
     </h1>
   </header>
-  <nav>
-
-  </nav>
+  
   <main>
     <section><img src="images/beth_photo.jpg" alt="photo of Bethany">
     <h2>
@@ -31,9 +29,16 @@
   </main>
   <footer>
     &copy; 2021 | Bethany Panter | Washington | BYUI Online Learning <br>
-    Last Updated 01/07/2021 
+    Last Updated: <span id="currentdate"></span>
 
   </footer>
+  <script src="js/currentdate.js">
+    //toLocaleDateString
+    //const options ={weekday: "long", day: "numeric", month: "long", year:"numeric"};
+    //document.getElementById("currentdate").textContent= new Date ().toLocaleDateString("en-US", options);
+   // const todaysdate = new Date();
+    
+  </script>
   
 </body>
 </html>
