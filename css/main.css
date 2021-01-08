@@ -1,0 +1,30 @@
+body{ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+
+header, footer, main {    margin: 1.25remauto;
+    max-width: 760px;
+}
+
+header, footer {
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    
+
+}
+
+header {
+    font-size: 100 px;
+    padding: .1rem;
+   
+}
+
+h2{
+    border-bottom: 1px solid gray;
+}
+
+footer{
+    text-align: center;
+}
