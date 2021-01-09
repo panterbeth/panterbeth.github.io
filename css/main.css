@@ -29,20 +29,26 @@ h1{
 h2{
     border-bottom: 1px solid gray;
     margin-right: 10.5rem;
+    padding-left: 2.5rem; 
     
+    
+}
+ul{
+    padding-left: 2.5rem; 
 }
 
 footer{
     text-align: center;
     font-size: 14px;
     padding: .4rem;
+    font-family: 'Arimo', sans-serif;
 }
 
 img{
     float: right;
     box-sizing: border-box;
     width:35%;
-    margin-top: -8.5rem;
+    margin-top: -5.5rem;
     margin-right: .5rem;
     max-width: 150px;
     border-radius: 5px;
