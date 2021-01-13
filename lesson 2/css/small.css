@@ -10,7 +10,9 @@ max-width: 400px; max-height: 600px; display:block;
 
 }
 header{
-    text-align:center;}
+    text-align:center;
+    color:rgb(23, 5, 121)
+}
 .home{
     display:grid; grid-template-columns: 1fr;
    
@@ -27,23 +29,28 @@ h3{ background-color:rgb(23, 5, 121);
 .visual-home {
     margin:1rem;
     padding:1rem;
-    background-color: rgb(236, 235, 238);
+    background-color: rgb(237, 239, 248);
+    border-radius:.5rem;
     
 }
 .white-home{
     margin:1rem;
     padding:1rem;
-    background-color: rgb(236, 235, 238);
+    background-color: rgb(237, 239, 248);
+    border-radius:.5rem;
 }
-.hick-home{
+.hick-home {
     margin:1rem;
-    padding:1rem;
-    background-color: rgb(236, 235, 238);
+    padding: 1rem;
+     background-color: rgb(237, 239, 248);
+     border-radius:.5rem;
 }
 
 footer{
     text-align: center;
     font-size: 14px;
     padding: .4rem;
+    color:rgb(23, 5, 121);
+    border-radius:.5rem;
     
 }
