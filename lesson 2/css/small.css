@@ -1,0 +1,49 @@
+body{font-family: 'Poppins', sans-serif;
+     font-size:18px;
+    padding:1rem;
+    box-sizing: border-box;
+    
+}
+
+img{
+max-width: 400px; max-height: 600px; display:block;
+
+}
+header{
+    text-align:center;}
+.home{
+    display:grid; grid-template-columns: 1fr;
+   
+}
+h3{ background-color:rgb(23, 5, 121);
+    border-radius:.5rem;
+    color:white;
+    padding:.5rem;
+
+}
+
+
+
+.visual-home {
+    margin:1rem;
+    padding:1rem;
+    background-color: rgb(236, 235, 238);
+    
+}
+.white-home{
+    margin:1rem;
+    padding:1rem;
+    background-color: rgb(236, 235, 238);
+}
+.hick-home{
+    margin:1rem;
+    padding:1rem;
+    background-color: rgb(236, 235, 238);
+}
+
+footer{
+    text-align: center;
+    font-size: 14px;
+    padding: .4rem;
+    
+}

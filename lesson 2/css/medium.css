@@ -1,0 +1,9 @@
+@media (min-width: 37.5em){
+    .home{display:grid; grid-template-columns: 1fr 1fr;}
+}
+footer{
+    text-align: center;
+    font-size: 14px;
+    padding: .4rem;
+    
+}
