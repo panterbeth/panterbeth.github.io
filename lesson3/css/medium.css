@@ -1,0 +1,10 @@
+@media (min-width: 37.5em){
+/*nav ul {
+	display: flex;
+	font-size: 1.1rem;
+}
+nav li {flex: 1 1 100%;}*/
+nav ul { display: flex; }
+		nav ul li { flex: 1 1 100%; }
+	
+}
