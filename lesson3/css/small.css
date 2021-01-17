@@ -30,3 +30,11 @@ p {color:#2B2727;}
     color:#2B2727;
     background-color:#E6C075;
 }
+footer{
+    text-align: center;
+    font-size: 14px;
+    padding: .4rem;
+    color:#2B2727;
+    border-radius:.5rem;
+    
+}
