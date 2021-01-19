@@ -1,8 +1,15 @@
 body{
    
     font-family: 'Overpass Mono', monospace;
-
+    box-sizing: border-box;
     font-size: 20px;
+    
+   
+   
+}
+header, footer, main, nav {
+    max-width: 960px;
+    margin: 1.25rem auto;
 }
 nav ul{
     list-style-type: none;
@@ -23,7 +30,7 @@ nav ul li a {
 h1, h2, h3, h4, h5, h6 {
     padding:1rem;
     color:white;
-    background-color:#61B9E5;
+    background-color:#1F8BC1;
     font-family: 'Fraunces', serif;
 }
 
