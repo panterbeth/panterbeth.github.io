@@ -1,5 +1,7 @@
 body{
-    font-family: 'Fraunces', serif;
+   
+    font-family: 'Overpass Mono', monospace;
+
     font-size: 20px;
 }
 nav ul{
@@ -22,6 +24,7 @@ h1, h2, h3, h4, h5, h6 {
     padding:1rem;
     color:white;
     background-color:#61B9E5;
+    font-family: 'Fraunces', serif;
 }
 
 p {color:#2B2727;}
