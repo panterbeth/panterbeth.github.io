@@ -1,4 +1,12 @@
 @media (min-width: 37.5em){
+	#personas {display:grid; grid-template-columns: 1fr 1fr;}
+	.personas-paragraph {grid-column: 2/3;
+				padding:.25rem;}
+	.personas-image{grid-column: 1/2;
+				max-width:300px;
+				padding:1rem;}
+	.personas-headline{grid-column:1/3;}	
+	
 /*nav ul {
 	display: flex;
 	font-size: 1.1rem;

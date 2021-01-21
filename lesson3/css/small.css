@@ -3,11 +3,12 @@ body{
     font-family: 'Overpass Mono', monospace;
     box-sizing: border-box;
     font-size: 20px;
-    
+    margin: .5rem;
    
    
 }
 header, footer, main, nav {
+    
     max-width: 960px;
     margin: 1.25rem auto;
 }
@@ -20,7 +21,7 @@ nav ul{
 nav ul li a {
    display: block;
     background-color:#2B2727;
-    color:#E6C075;
+    color:#E9C886;
     text-align: center;
 	padding: 0.75rem;
 	text-decoration: none;
@@ -38,7 +39,7 @@ p {color:#2B2727;}
 
 #colored{
     color:#2B2727;
-    background-color:#E6C075;
+    background-color:#E9C886;
 }
 footer{
     text-align: center;
@@ -47,4 +48,7 @@ footer{
     color:#2B2727;
     border-radius:.5rem;
     
+}
+
+.audience-home {display:grid; grid-template-columns: 1fr;
 }
