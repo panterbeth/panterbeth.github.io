@@ -6,7 +6,7 @@ body{font-family: 'Poppins', sans-serif;
 }
 
 img{
-max-width: 400px; max-height: 600px; display:block;
+max-width: 345px; max-height: 600px; display:block;
 
 }
 header{
@@ -31,19 +31,21 @@ h3{ background-color:rgb(23, 5, 121);
     padding:1rem;
     background-color: rgb(237, 239, 248);
     border-radius:.5rem;
-    
+    max-width: 350px;
 }
 .white-home{
     margin:1rem;
     padding:1rem;
     background-color: rgb(237, 239, 248);
     border-radius:.5rem;
+    max-width: 350px;
 }
 .hick-home {
     margin:1rem;
     padding: 1rem;
      background-color: rgb(237, 239, 248);
      border-radius:.5rem;
+     max-width: 350px;
 }
 
 footer{
