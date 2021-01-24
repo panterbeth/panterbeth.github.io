@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lesson 4 Preston Home Page</title>
   <meta name="description" content="Preston Home Page Assignment WDD 230 BYU-I">
-  
   <link href="https://fonts.googleapis.com/css2?family=Fraunces&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@400&display=swap" rel="stylesheet">
@@ -16,44 +15,33 @@
 </head>
 <body>
   <header>
-    <h1>Rays of Sun</h1>
+    <img alt="sun and rain" src="images/rainorshine.gif">
+    <section class="headings">
+        <h1>Rays of Sun</h1>
+        <div>Motto</div>
+    </section>
   </header>
-  <nav>
-    <ul>
-      <li>
-          <a href="index.html">Home</a>
-      </li>
-      <li>
-          <a href="target-audience.html">Target Audience</a>
-      </li>
-      <li>
-          <a href="color-scheme.html">Color Scheme</a>
-      </li>
-      <li>
-          <a href="typography.html">Typography</a>
-      </li>
-  </ul>
+  <nav class="clearfix">
+    <button onclick="toggleMenu()">&#9776</button>
+    <ul id="primaryNav" class="hide">
+       
+        <li><a href="#">Home</a></li>
+        <li class="active"><a href="#">Preston</a></li>
+        <li><a href="#">Soda Springs</a></li>
+        <li><a href="#">Fish Haven</a></li>   
+        <li><a href="#">Storm Center</a></li>
+        <li ><a href="#">Gallery</a></li>
+        
 
-
-  </nav>
+    </ul>
+</nav>
   
   <main>
-    <h2>Site Purpose</h2>
-    <p>
-        The purpose of this website is to inform people about the local weather in their area and in areas they are traveling to. It serves 
-        to help them plan their day and activities. Are they going for a hike, swim, bike ride on this 
-        beautiful sunny day? Or are the better off staying in with the high chance of rain? </p>
-       <p>It also serves as a place to be informed about coming storms and how to be prepared and to find 
-        information about emergency situations such as blackouts and where to go in a weather crisis such 
-        as flooding or lightening storm. People will be able to view: hourly, daily, 10day, and monthly forecasts.
-    </p>
-    <h2>Domain Name</h2>
-    <p>
-        raysofsun.com
-    </p>
-    <h2>Logo</h2>
-    <img alt="sun and rain" src="images/rainorshine.jpg">
-
+    <h2>Preston Idaho</h2>
+    <div class="contentbox">Hero w/weather summary</div>
+    <div class="contentbox forecast">Day Forecast</div>
+    <div class="contentbox">Article</div>
+    <div class="contentbox">Contact Information</div>
 
   </main>
   <footer>
@@ -63,10 +51,8 @@
       Last Updated: <span id="currentdate"></span>
 
     </footer>
-    <script src="javascript/currentdate.js">
-      
-      
-    </script>
+    <script src="js/currentdate.js"></script>
+    <script src="js/toggleMenu.js"></script>
     
 </body>
 </html>
