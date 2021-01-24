@@ -84,14 +84,15 @@ footer{
     font-size: small;
     background-color:#1F8BC1;
     color: white;
-    padding: .5rem;
+    padding: 1rem;
+    margin-top: 2rem;
 }
 footer a{
     color:white;
 
 }
 footer a:visited{
-    color: black;
+      color: #2B2727;;
 }
 h1, h2, h3, h4, h5, h6{
     font-family: 'Fraunces', serif;
