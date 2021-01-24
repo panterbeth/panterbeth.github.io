@@ -1,3 +1,7 @@
 @media (min-width: 78em){
     .home{display:grid; grid-template-columns: 1fr 1fr 1fr;}
+    section{
+        max-width: 1275px;
+        margin:auto;
+    }
 }
