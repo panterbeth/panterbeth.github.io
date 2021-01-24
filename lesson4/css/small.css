@@ -1,6 +1,10 @@
 body{
-    padding:0;
-    margin:0;
+    
+    font-family: 'Overpass Mono', monospace;
+    font-size: 18px;
+    
+
+    
 }
 header{
     display:flex;
@@ -11,7 +15,8 @@ header img{ width:80px;}
 .headings {
     display:flex;
     flex-direction: column;
-    
+    padding:0;
+     
 }
 nav button{
     margin:.2rem 2%;
@@ -21,15 +26,21 @@ nav button{
     color: #fff;
 }
 nav{
-    background-color:#aa0000;
-    font-family: Veranda, sans-serif;
+    background-color:#1F8BC1;
+    text-align:center;
+    
+    
+    
 }
 
 nav ul{
     list-style-type: none;
     padding:0;
     margin:0;
+    
+    
 }
+
 
 nav ul li a {
     display: block;
@@ -37,6 +48,7 @@ nav ul li a {
     text-decoration:none;
     color:rgba(255,255,255,0.8);
     border-top: 1px solid rgba(0,0,0,0.3);
+    text-align: center;
 }
 nav ul li.active a{background-color: rgba(0,0,0,0.3); color:#fff;}
 
@@ -51,3 +63,42 @@ nav ul.hide {display:none;}
     display: table;
     clear: both;
   }
+  .content{
+      display:block;
+      color: #2B2727;
+      background-color: #E9C886;
+      padding: 10px;
+      border: 1px solid black;
+      margin: 10px;
+      
+  }
+  main footer { 
+      
+      margin: auto;
+    margin: 10px;
+}
+
+footer{
+    text-align: center;
+    font-family: 'Fraunces', serif;
+    font-size: small;
+    background-color:#1F8BC1;
+    color: white;
+    padding: .5rem;
+}
+footer a{
+    color:white;
+
+}
+footer a:visited{
+    color: black;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Fraunces', serif;
+    text-align: center;
+
+}
+
+header{
+    background-color:#CAE8F7;
+}
