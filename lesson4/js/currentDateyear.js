@@ -1,3 +1,7 @@
+let d= new Date();
+let year= d.getFullYear();
+document.getElementById("currentyear").textContent= year;
+
 let daynames=[
     "Sunday", 
     "Monday", 
@@ -24,6 +28,6 @@ let months=[
 let nD= new Date();
 let dayName= daynames[nD.getDay()];
 let monthName= months[nD.getMonth()];
-let year= nD.getFullYear();
-let fulldate= dayName + ", " + nD.getDate() +", " + monthName + ", " +year;
+let y= nD.getFullYear();
+let fulldate= dayName + ", " + nD.getDate() +", " + monthName + ", " +y;
 document.getElementById("currentdate").textContent=fulldate;

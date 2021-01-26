@@ -23,7 +23,7 @@ nav button{
     background-color: transparent;
     border: none;
     font-size: 1.6rem;
-    color: #fff;
+    color: #f5f5f5;
 }
 nav{
     background-color:#1F8BC1;
@@ -65,8 +65,8 @@ nav ul.hide {display:none;}
   }
   .content{
       display:block;
-      color: #2B2727;
-      background-color: #E9C886;
+      color: #fff;
+      background-color:#CF9726;
       padding: 10px;
       border: 1px solid black;
       margin: 10px;
