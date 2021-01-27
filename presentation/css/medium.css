@@ -1,0 +1,19 @@
+@media (min-width: 32.5em){
+    h1, h2, h3, h4, h5, h6 {color:#eb5fc8; background-color:#a4f0f3;font-family:"Arial Black", gadget, sans-serif;}
+    main p {color:#e62910;padding:1em;}
+    p {font-family:"Century Schoolbook", georgia, serif;}
+    body{background-color:#06640e;}
+    nav a{color:#042A2B;padding:.2em;font-size:25px;font-family:"Century Schoolbook", georgia, serif;}
+    nav a:hover{color:#042A2B; background-color:#ECC8AE;}
+    /*nav a:visited {
+      color: white;background-color:#7CA5B8;}*/
+    main{background-color:white;}
+    footer p{color:#042A2B;}
+    
+
+}
+
+@media only screen and (orientation:landscape){
+    body{
+        background-color: #e62910;
+    }}
