@@ -31,3 +31,13 @@ let monthName= months[nD.getMonth()];
 let y= nD.getFullYear();
 let fulldate= dayName + ", " + nD.getDate() +", " + monthName + ", " +y;
 document.getElementById("currentdate").textContent=fulldate;
+
+var now = new Date();
+    var dayOfWeek = now.getDay();
+    let response;
+    if(dayOfWeek==6)
+        {response="Preston Pancakes in the Park!\n9:00a.m. Saturday at the city park.";}
+        else{response="Get up!";}
+
+
+    document.getElementById("pancakes").innerHTML = response;
