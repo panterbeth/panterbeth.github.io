@@ -14,9 +14,11 @@
   <link href="css/large.css" rel="stylesheet">
 </head>
 <body>
-  
+  <aside id="pancakes" style="display:block;">
+    
+  </aside>
   <header>   
-    <div id="pancakes"></div>
+    
   <img id="logo" alt="sun and rain" src="images/sunandrain.gif">
   <section class="headings">
         <h1>Rays of Sun</h1>
@@ -46,15 +48,56 @@
       <section class="weather">
        <h2>Weather Summary</h2>
        <p>Currently: <span id="current">Sunny</span></p>
-       <p>High: <span id="high">76 *F</span></p>
-       <p>Wind Chill: <span id="windchill">*F</span></p>
+       <p>High: <span id="high">76&#176;F</span></p>
+       <p>Wind Chill: <span id="windchill">&#176;F</span></p>
         <p>Humidity: <span id="humidity">69%</span></p>
         <p>Wind Speed: <span id="windspeed">5 mph</span></p>
       </section>
      </div>
-    <div class="forecast">
+    <section class="forecast">
         <p>5 Day Forecast</p>
-    </div>
+        <table>
+          <tr>
+            <th>
+              Mon
+            </th>
+            <th>
+              Tues
+            </th>
+            <th>
+              Wed
+            </th>
+            <th>
+              Thurs
+            </th>
+            <th>
+              Fri
+            </th>
+          </tr>
+          <tr>
+            <th>
+              72&#176;
+              <img src="" alt="">
+            </th>
+            <th>
+              72&#176;
+              <img src="" alt="">
+            </th>
+            <th>
+              72&#176;
+              <img src="" alt="">
+            </th>
+            <th>
+              72&#176;
+              <img src="" alt="">
+            </th>
+            <th>
+              72&#176;
+              <img src="" alt="">
+            </th>
+          </tr>
+        </table>
+      </section>
     <div class="content">
       <img id="peoplepark" src="images/park-pexels-mentatdgt-1220755.jpg" alt="people in park">
       <h3 id="article">Article</h3>
@@ -63,7 +106,19 @@
         Ultrices dui sapien eget mi proin sed libero enim. Turpis egestas integer eget aliquet. Dolor magna eget est lorem ipsum dolor sit amet. Tincidunt ornare massa eget egestas purus viverra accumsan in. Ultricies tristique nulla aliquet enim tortor at auctor urna. Habitant morbi tristique senectus et. Pretium vulputate sapien nec sagittis aliquam malesuada. Tincidunt eget nullam non nisi est sit amet. Massa sed elementum tempus egestas sed. Purus gravida quis blandit turpis cursus. Ut consequat semper viverra nam. Malesuada proin libero nunc consequat interdum varius sit amet mattis. Urna molestie at elementum eu facilisis. Ornare lectus sit amet est placerat in egestas. Faucibus nisl tincidunt eget nullam.</p>
       
     </div>
-    <div class="content">Contact Information</div>
+    <section id="contact">
+      <img class="googlemap" src="images/googlemap.png" alt="map">
+      <div><h4>Rays of Sun</h4>
+      <p><img id="icon-map" src="images/icons8-address-16.png" alt="mapicon">
+        2021 West Dr.<br>
+      Hometown, WA 92472<br><br>
+      987-654-3210<br>
+      raysofsun.com
+      </p>
+      
+      <img id="mediapic" src="images/media.png" alt="socialmedia"></div>
+      
+    </section>
 
   </main>
   <footer>

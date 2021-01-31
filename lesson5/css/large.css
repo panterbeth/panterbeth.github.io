@@ -1,4 +1,5 @@
 @media only screen and (min-width: 56rem) {
+    
     nav ul li a {
         padding: .6rem 1rem;
     }
@@ -40,11 +41,25 @@
     margin: 10px;
     
 }
-.weather{
-    display:none;
-}
-}
 #peoplepark{
     max-width:600px;
-    float:right;
+    float: right;}
+
+
+#contact{
+    display:grid;
+    grid-template-columns: 1fr 1fr;  
+      color: #fff;
+      background-color:#E9C886;
+      padding: 10px;
+      border: 1px solid black;
+      margin: 10px;
+    }
+
+    .googlemap{
+        display:list-item;
+    }
 }
+   
+
+

@@ -36,8 +36,8 @@ var now = new Date();
     var dayOfWeek = now.getDay();
     let response;
     if(dayOfWeek==6)
-        {response="Preston Pancakes in the Park!\n9:00a.m. Saturday at the city park.";}
-        else{response="Get up!";}
+        {response="Saturday= Preston Pancakes in the Park!\n9:00a.m. Saturday at the city park pavilion.";}
+        else{response="";}
 
 
     document.getElementById("pancakes").innerHTML = response;
