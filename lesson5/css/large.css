@@ -35,7 +35,7 @@
     display:list-item;
     display:block;
     color: #fff;
-    background-color: #E9C886;
+    background-color: white;
     padding: 10px;
     border: 1px solid black;
     margin: 10px;
@@ -50,7 +50,7 @@
     display:grid;
     grid-template-columns: 1fr 1fr;  
       color: #fff;
-      background-color:#E9C886;
+      background-color: #E9C886;
       padding: 10px;
       border: 1px solid black;
       margin: 10px;
@@ -58,6 +58,9 @@
 
     .googlemap{
         display:list-item;
+    }
+    .mainforecast{
+        display:inline;
     }
 }
    

@@ -167,3 +167,27 @@ max-width: 50px;
 .googlemap{
     display:none;
 }
+.daysofweek{
+    background-color:#CAE8F7;
+    color:black;
+}
+#fivedayheader{
+
+    text-align: center;
+    
+
+}
+.daysofweek th{
+    
+    border:solid black 1px;
+}
+.temp{
+    border-right: solid black 1px;
+
+}
+.temperature{
+    color:black;
+}
+.mainforecast{
+    display:none;
+}
