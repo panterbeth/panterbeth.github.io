@@ -36,8 +36,10 @@ var now = new Date();
     var dayOfWeek = now.getDay();
     let response;
     if(dayOfWeek==6)
-        {response="Saturday= Preston Pancakes in the Park!\n9:00a.m. Saturday at the city park pavilion.";}
-        else{response="";}
+        {response="Saturday= Preston Pancakes in the Park!\n9:00a.m. Saturday at the city park pavilion.";
+        document.getElementById("pancakes").innerHTML = response;}
+        else{response="";
+    document.getElementById("pancakes").style.display="none";}
 
 
-    document.getElementById("pancakes").innerHTML = response;
+    

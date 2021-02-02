@@ -9,7 +9,7 @@ header{
     display:flex;
     align-items:center;
     justify-content: center;
-    
+    padding:3.5rem;
    
 }
 header img{width:80px;}
@@ -62,8 +62,8 @@ nav ul.hide {display:none;}
   }
   .content{
       display:block;
-      color: #fff;
-      background-color:#CF9726;
+      color: #2B2727;
+      background-color:rgba(248,182,45, .3);
       padding: 10px;
       border: 1px solid black;
       margin: 10px;
@@ -89,7 +89,7 @@ footer a{
 
 }
 footer a:visited{
-      color: #2B2727;;
+      color: #2B2727;
 }
 h1, h2, h3, h4, h5, h6{
     font-family: 'Fraunces', serif;
@@ -105,7 +105,8 @@ header h1{
     margin-bottom: 8px;
 }
 
-main {max-width:820px;margin:0 auto;}
+main {max-width:960px;
+    margin:0 auto;}
 h1 {text-align: center;font-size:2.5rem;text-shadow:3px 3px 5px #777;}
 
 .herodiv {margin: 10px auto;position: relative;}
@@ -132,13 +133,14 @@ div img{
     padding:1rem;
 } 
 aside{
-    background-color:#CF9726;
-    color:black;
+    background-color:rgba(248,182,45);
+    color:#2B2727;
     font-family: 'Fraunces', serif;
     position:absolute;
     text-align: center;
     padding: .5rem;
     display:block;
+    width:100%;
 
 }
 #townname{
@@ -158,11 +160,11 @@ max-width: 50px;
         display:flex;
         flex-direction: column;
         text-align: center;   
-      color: #fff;
-      background-color:#CF9726;
-      padding: 10px;
-      border: 1px solid black;
-      margin: 10px;}
+        color:#2B2727;
+        background-color:rgba(248,182,45, .3);
+        padding: 10px;
+        border: 1px solid black;
+        margin: 10px;}
 
 .googlemap{
     display:none;
@@ -186,8 +188,9 @@ max-width: 50px;
 
 }
 .temperature{
-    color:black;
+    color: #2B2727;
 }
 .mainforecast{
     display:none;
 }
+

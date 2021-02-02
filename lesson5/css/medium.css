@@ -1,11 +1,4 @@
 @media only screen and (min-width: 32.5rem) {
     header img{ width:100px;}
     
-    .content{
-        
-        color: #2B2727;
-        background-color:#E9C886;}
-    #contact{
-        background-color:#E9C886;
-    }
 }
