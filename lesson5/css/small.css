@@ -63,7 +63,7 @@ nav ul.hide {display:none;}
   .content{
       display:block;
       color: #2B2727;
-      background-color:rgba(248,182,45, .3);
+      background-color:#CAE8F7;
       padding: 10px;
       border: 1px solid black;
       margin: 10px;
@@ -161,7 +161,7 @@ max-width: 50px;
         flex-direction: column;
         text-align: center;   
         color:#2B2727;
-        background-color:rgba(248,182,45, .3);
+        background-color:#CAE8F7;
         padding: 10px;
         border: 1px solid black;
         margin: 10px;}
@@ -194,3 +194,7 @@ max-width: 50px;
     display:none;
 }
 
+#map-icon{
+    color:black;
+    
+}
