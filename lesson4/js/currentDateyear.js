@@ -1,8 +1,8 @@
-let d= new Date();
-let year= d.getFullYear();
+let day= new Date();
+let year= day.getFullYear();
 document.getElementById("currentyear").textContent= year;
 
-let daynames=[
+let dayNames=[
     "Sunday", 
     "Monday", 
     "Tuesday", 
@@ -25,9 +25,9 @@ let months=[
     "November",
     "December"
 ];
-let nD= new Date();
-let dayName= daynames[nD.getDay()];
-let monthName= months[nD.getMonth()];
-let y= nD.getFullYear();
-let fulldate= dayName + ", " + nD.getDate() +", " + monthName + ", " +y;
-document.getElementById("currentdate").textContent=fulldate;
+let apple= new Date();
+let dayName= dayNames[apple.getDay()];
+let monthName= months[apple.getMonth()];
+let fullYear= apple.getFullYear();
+let fullDate= dayName + ", " + apple.getDate() +", " + monthName + ", " +fullYear;
+document.getElementById("currentdate").textContent=fullDate;
