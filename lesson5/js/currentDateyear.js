@@ -1,8 +1,8 @@
-let d= new Date();
-let year= d.getFullYear();
+let day= new Date();
+let year= day.getFullYear();
 document.getElementById("currentyear").textContent= year;
 
-let daynames=[
+let dayNames=[
     "Sunday", 
     "Monday", 
     "Tuesday", 
@@ -25,12 +25,12 @@ let months=[
     "November",
     "December"
 ];
-let nD= new Date();
-let dayName= daynames[nD.getDay()];
-let monthName= months[nD.getMonth()];
-let y= nD.getFullYear();
-let fulldate= dayName + ", " + nD.getDate() +", " + monthName + ", " +y;
-document.getElementById("currentdate").textContent=fulldate;
+let apple= new Date();
+let dayName= dayNames[apple.getDay()];
+let monthName= months[apple.getMonth()];
+let fullYear= apple.getFullYear();
+let fullDate= dayName + ", " + apple.getDate() +", " + monthName + ", " +fullYear;
+document.getElementById("currentdate").textContent=fullDate;
 
 var now = new Date();
     var dayOfWeek = now.getDay();
@@ -42,4 +42,24 @@ var now = new Date();
     document.getElementById("pancakes").style.display="none";}
 
 
+//apple.setDate(new Date().getDate()+1);
+var nextDay= new Date();
+nextDay.setDate(day.getDate()+1);
+var plusOne=dayNames[nextDay.getDay()];
+document.getElementById("dayPlusOne").innerHTML=plusOne;
     
+nextDay.setDate(day.getDate()+2);
+var plusTwo=dayNames[nextDay.getDay()];
+document.getElementById("dayPlusTwo").innerHTML=plusTwo;
+
+nextDay.setDate(day.getDate()+3);
+var plusThree=dayNames[nextDay.getDay()];
+document.getElementById("dayPlusThree").innerHTML=plusThree;
+
+nextDay.setDate(day.getDate()+4);
+var plusFour=dayNames[nextDay.getDay()];
+document.getElementById("dayPlusFour").innerHTML=plusFour;
+
+nextDay.setDate(day.getDate()+5);
+var plusFive=dayNames[nextDay.getDay()];
+document.getElementById("dayPlusFive").innerHTML=plusFive;
