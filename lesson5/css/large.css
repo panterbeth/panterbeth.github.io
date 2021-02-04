@@ -51,13 +51,14 @@
     grid-template-columns: 1fr 1fr;  
     }
 
-    .googlemap{
+.googlemap{
         display:list-item;
+        border:3px solid white;
     }
-    .mainforecast{
+ .mainforecast{
         display:inline;
     }
-    aside{
+ aside{
         font-size: 22px;
        
     }
