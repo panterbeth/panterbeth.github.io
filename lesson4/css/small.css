@@ -81,8 +81,8 @@ nav ul.hide {display:none;}
 footer{
     text-align: center;
     font-family: 'Fraunces', serif;
-    font-size: small;
     background-color:#1F8BC1;
+    font-size: 14px;
     color: white;
     padding: 1rem;
     margin-top: 2rem;
