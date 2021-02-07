@@ -62,6 +62,17 @@
         font-size: 22px;
        
     }
+    .weather {
+        position: absolute;
+        top: 30px;
+        left: 50px;
+        background: radial-gradient(#eee, #CAE8F7);
+        border: 1px solid #000;
+        padding: 1.5rem;
+        box-shadow: 0 0 30px #111;
+        opacity: .8;
+        
+    }
    
 }
    

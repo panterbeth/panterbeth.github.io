@@ -196,16 +196,19 @@ input{
 #peoplepark{
     max-width:400px;
 }
-.weather{
-    display:none;
-}
+
 .myphoto{
     display:block; margin-left:auto; margin-right:auto; box-sizing:border-box; width:100%;
     padding:1rem;
 
 }
 
-.smallweather{
+
+#weathersummary{
+    text-align: center;
+}
+.weather
+{
     display:block;
     background: radial-gradient(#eee, #CAE8F7);
 	border: 1px solid #000;
@@ -215,8 +218,4 @@ input{
     margin:auto;
     text-align: center;
     width:max-content;
-    
-}
-#weathersummary{
-    text-align: center;
 }
