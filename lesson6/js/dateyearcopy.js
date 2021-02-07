@@ -64,7 +64,7 @@ nextDay.setDate(day.getDate()+5);
 var plusFive=dayNames[nextDay.getDay()];
 document.getElementById("dayPlusFive").innerHTML=plusFive;
 
-function windChill(tempF, speed){
+/*function windChill(tempF, speed){
     let wc= 35.74+(0.6215*tempF)-35.75*(speed**0.16)+(0.4275*tempF*(speed**0.16));
     return wc;
 }
@@ -82,4 +82,4 @@ function windChill(tempF, speed){
 
 
 document.getElementById("windchill").innerHTML=equal;
-}
+}*/
