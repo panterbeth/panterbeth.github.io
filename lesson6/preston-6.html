@@ -47,13 +47,13 @@
     <div class="herodiv">
       <img id="bannerpic" src="images/banner-pexels-simon-berger-opt.jpg" alt="sunset on mountain">
       <section class="weather">
-       <h2>Weather Summary</h2>
-       <p>Currently: <span id="current">Sunny</span></p>
-       <p>High: <span id="high">76</span>&#176;F</p>
-       <p>Wind Chill: <span id="windchill">&#176;F</span></p>
-        <p>Humidity: <span id="humidity">69%</span></p>
-        <p>Wind Speed: <span id="windspeed">5</span> mph</p>
-      </section>
+        <h2>Weather Summary</h2>
+        <p>Currently: <span id="current">Sunny</span></p>
+        High:<input type="text" id="high">&#176;F <br>
+        <button id="button" type="button" onclick="doInputOutput()">Wind Chill:</button> <span id="windchill"></span>
+         <p>Humidity: <span id="humidity">69%</span></p>
+       Wind Speed:<input type="text" id="windspeed"> mph
+       </section>
      </div>
      
     <section class="mainforecast">
@@ -134,7 +134,7 @@
     </footer>
     <script src="js/dateyearcopy.js"></script>
     <script src="js/toggle.js"></script>
-    <script src="js/windchill.js"></script>
+    
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
    <script>WebFont.load({
     google: {

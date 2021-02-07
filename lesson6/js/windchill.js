@@ -4,13 +4,16 @@ function windChill(tempF, speed){
 }
 
 function doInputOutput(){
-    let t=parseFloat(document.getElementById("inputbox").value);
-    let s=parseFloat(document.getElementById("inputbox2").value);
+    let t=parseFloat(document.getElementById("high").value);
+    let s=parseFloat(document.getElementById("windspeed").value);
+    if(t<=50&&s>3){
+
     var equal=windChill(t,s);
+    }
+    else{var equal="N/A";}
 
 
 
 
-
-document.getElementById("output").innerHTML=equal;
+document.getElementById("windchill").innerHTML=equal.toFixed(0);
 }

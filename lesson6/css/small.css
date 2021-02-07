@@ -197,5 +197,9 @@ max-width: 50px;
     color:black;
     
 }
-
-
+#button{
+    background-color:#1F8BC1
+}
+input{
+    width:2rem;
+}
