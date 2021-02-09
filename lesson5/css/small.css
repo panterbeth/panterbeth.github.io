@@ -80,12 +80,14 @@ footer{
     font-family: 'Fraunces', serif;
     font-size: 14px;
     background-color:#1F8BC1;
-    color: white;
+    color:black;
+
     padding: 1rem;
     margin-top: 2rem;
 }
 footer a{
-    color:white;
+    color:black;
+
 
 }
 
