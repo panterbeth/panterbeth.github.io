@@ -35,7 +35,7 @@ document.getElementById("currentdate").textContent=fullDate;
 var now = new Date();
     var dayOfWeek = now.getDay();
     let response;
-    if(dayOfWeek==6)
+    if(dayOfWeek==5)
         {response="Saturday= Preston Pancakes in the Park!\n9:00a.m. Saturday at the city park pavilion.";
         document.getElementById("pancakes").innerHTML = response;}
         else{response="";
