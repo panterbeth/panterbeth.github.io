@@ -56,7 +56,7 @@
         border:3px solid white;
     }
  .mainforecast{
-        display:inline;
+        display:block;
     }
  aside{
         font-size: 22px;
