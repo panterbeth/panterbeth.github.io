@@ -78,7 +78,12 @@
         
     }
   
-   
-
+    .gallery-home {
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+.gallery-pics:hover {
+    box-shadow: 0 0 50px #333;
+}
 
 }
