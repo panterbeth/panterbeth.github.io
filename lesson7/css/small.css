@@ -235,3 +235,9 @@ article img{
 .gallery-home picture {
     justify-self:center;
 }
+.gallery-home p{ 
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom:1rem;
+    
+}
