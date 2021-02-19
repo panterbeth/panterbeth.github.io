@@ -1,0 +1,11 @@
+@media only screen and (min-width: 32.5rem) {
+    header img{ width:100px;}
+    .gallery-home {
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    /*picture{
+        margin:auto;
+    }*/
+   
+}
