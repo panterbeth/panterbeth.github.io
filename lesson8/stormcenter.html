@@ -43,15 +43,15 @@
   
   <main>
     
-    <h2 id="townname">Storm Center Form</h2>
+    <h2 id="stormheadline">Storm Center Form</h2>
        
             <form method="get" action="thanks.html">
                 <fieldset>
                     <legend>Personal Information</legend>
-                    <label class="top">Name*<input type="text" pattern="(\d{5}([\-]\d{4})?)"name="name"  required></label>
+                    <label class="top">Name*<input type="text" name="name"  pattern="[A-Za-z].{4,}" required></label>
                     
                     <label class="top">Phone<input type="tel" name="phone" placeholder="1235551234" required></label>
-                    <label for="zip" class="top">Zip Code:<input type="text" pattern="(\d{5}([\-]\d{4})?)"name="zip" required></label>
+                    <label for="zip" class="top">Zip Code:<input id="zip"  type="text" pattern="(\d{5}([\-]\d{4})?)" name="zip" required></label>
                     <label class="top">Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
                     
                 </fieldset>
@@ -67,8 +67,16 @@
                              
                          </select>
                      </label>
-                     <label class="top">Storm Type<input list="datalist" name="stormType"></label>
-                     <label for="rating" class="top">Storm Severity<input type="range" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)" name="severity"><span id="ratingvalue">5</span></label>
+                     <label class="top">Storm Type<input list="stormlist" name="stormType"></label>
+                     <datalist id="stormlist">
+                       <option value="Flash Flood"></option>
+                       <option value="Hail"></option>
+                       <option value="Hurricane"></option>
+                       <option value="Thunderstorm"></option>
+                       <option value="Tornado"></option>
+
+                     </datalist>
+                     <label  for="rating" class="top">Storm Severity (1-10)<input id="rating" type="range" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)" name="rating"><span id="ratingvalue">5</span></label>
                      <datalist id="tickmarks">
                          <option value="0"></option>
                          <option value="1"></option>
@@ -91,9 +99,13 @@
                 </fieldset>
     
                 <fieldset>
-                    <legend>Funding</legend>
+                    <legend>Additional Comments or Information</legend>
                     
-                     <label class="top">How Many Authors <input type="number" name="authors"></label>
+                     <label class="top">Please enter any additional details below.
+                      
+                     </label>
+                     <textarea id="textbox" name="textbox" rows="5" cols="50"></textarea>
+                     
                 </fieldset>
                 <input type="submit" value="Report Storm" class="submitBtn">
             </form>

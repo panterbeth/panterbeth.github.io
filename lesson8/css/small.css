@@ -244,7 +244,7 @@ article img{
 
 /*-----Form------*/
 form fieldset {
-    margin: 2rem 0;
+    margin: 2rem 1rem;
     border: 1px solid #445ba9;
     border-radius: 10px;
     padding: .5rem;
@@ -269,7 +269,7 @@ form label.top input, form label.top select{
     -webkit-appearance: none;
     display:block;
     font-size: 1rem;
-    border: solid 1pxx #999;
+    border: solid 1px #999;
     border-radius: 4px;
     padding: .75rem;
     color: #555;
@@ -290,7 +290,7 @@ form input.submitBtn{
     color: white;
     border-radius: 1rem;
     padding: .75rem 1.5rem;
-    margin: 0 0 2rem 2%;
+    margin: 0 0 2rem 1rem;
     width: 96%;
     max-width: 20rem;
 }
@@ -302,3 +302,11 @@ form label.top input:required{
 form label.top input:required:valid{
     border-left: green solid 6px;
 }
+ #rating{
+     padding:0;
+ }
+
+ #stormheadline{
+     text-align: left;
+     margin-bottom: -2.5rem;
+ }

@@ -83,3 +83,7 @@ document.getElementById("dayPlusFive").innerHTML=plusFive;
 
 document.getElementById("windchill").innerHTML=equal;
 }*/
+
+function adjustRating(rating){
+    document.getElementById("ratingvalue").innerHTML=rating;
+}
