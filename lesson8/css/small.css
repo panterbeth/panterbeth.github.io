@@ -251,7 +251,7 @@ form fieldset {
 }
 
 form legend{
-    color: #1F8BC1;
+    color: black;
     margin: 0 1rem;
     padding: 0 .5rem;
 
@@ -260,7 +260,7 @@ form legend{
 form label.top, form div{
     display: block;
     padding-top: 1rem;
-    color: #1F8BC1;
+    color: black;
     font-size: .8rem;
 
 }
@@ -287,7 +287,7 @@ form label.sbs{
 form input.submitBtn{
     border: none;
     background-color:#DAA538;
-    color: white;
+    color: black;
     border-radius: 1rem;
     padding: .75rem 1.5rem;
     margin: 0 0 2rem 1rem;
