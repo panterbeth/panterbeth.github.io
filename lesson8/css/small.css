@@ -245,13 +245,13 @@ article img{
 /*-----Form------*/
 form fieldset {
     margin: 2rem 1rem;
-    border: 1px solid #445ba9;
+    border: 1px solid #1F8BC1;
     border-radius: 10px;
     padding: .5rem;
 }
 
 form legend{
-    color: #445ba9;
+    color: #1F8BC1;
     margin: 0 1rem;
     padding: 0 .5rem;
 
@@ -260,7 +260,7 @@ form legend{
 form label.top, form div{
     display: block;
     padding-top: 1rem;
-    color: #9c2c13;
+    color: #1F8BC1;
     font-size: .8rem;
 
 }
@@ -275,7 +275,7 @@ form label.top input, form label.top select{
     color: #555;
     width: 100%;
     max-width: 20rem;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(202, 232, 247, 0.3);
 }
 
 form label.sbs{
@@ -286,7 +286,7 @@ form label.sbs{
 
 form input.submitBtn{
     border: none;
-    background-color: #9c2c13;
+    background-color:#DAA538;
     color: white;
     border-radius: 1rem;
     padding: .75rem 1.5rem;
@@ -309,4 +309,5 @@ form label.top input:required:valid{
  #stormheadline{
      text-align: left;
      margin-bottom: -2.5rem;
+     margin-left: 1rem;
  }
