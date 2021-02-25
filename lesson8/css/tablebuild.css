@@ -2,11 +2,9 @@
 table{
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
-    
-   
     margin: 5rem;
-    background-color:  #e7f0ed;
     font-size: 18px;
+    box-shadow: 10px 10px 15px grey;
     
     
 }
@@ -24,18 +22,18 @@ tfoot{
 
 thead {
     background-color: #7fb9c2;
-    font-size: 25px;
+    font-size: 30px;
+    
 }
 
 tbody tr:nth-child(even){
     background-color: #e7ffed;
 }
-
+tbody tr:nth-child(odd){
+    background-color:  #e7f0ed;
+}
 .dark-green{
     background-color: #628ca6;
     color: white;
     font-size: 18px;
-}
-.dark-green th{
-    font-weight: bold;
 }
