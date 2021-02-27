@@ -5,7 +5,7 @@
         grid-template-columns: 1fr 1fr;
     }
     
-* {padding: .35rem;}
+/* {padding: .35rem;}*/
 .towndata h2 {text-align:center;}
 
 .towndata section {
