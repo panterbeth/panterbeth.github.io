@@ -36,8 +36,9 @@ p2.textContent="Annual Rain Fall: "+ towns[i].averageRainfall;
 card.appendChild(p2);
 document.querySelector("div.towndata").appendChild(card); 
 
+const photos=["images/placeholder.png", ];
         let image=document.createElement("img");
-        image.setAttribute("src", towns[i].photo);
+        image.setAttribute("src", "images/placeholder.png");
         image.setAttribute("alt", towns[i].photo);
         card.appendChild(image);
         document.querySelector("div.towndata").appendChild(card);
