@@ -2,6 +2,8 @@ body{
     
     font-family: 'Overpass Mono', monospace;
     font-size: 18px;  
+    box-sizing: border-box;
+    
 }
 
 
@@ -63,7 +65,7 @@ nav ul.hide {display:none;}
   .content{
       display:block;
       color: #2B2727;
-      background-color:#CAE8F7;
+      background-color:rgba(202, 232, 247, 0.3);
       padding: 10px;
       border: 1px solid black;
       margin: 10px;
@@ -152,7 +154,7 @@ max-width: 50px;
         flex-direction: column;
         text-align: center;   
         color:#2B2727;
-        background-color:#CAE8F7;
+        background-color:rgba(202, 232, 247, 0.3);
         padding: 10px;
         border: 1px solid black;
         margin: 10px;}
@@ -318,12 +320,25 @@ form label.top input:required:valid{
 
  .towndata div {
     display: grid;
-      grid-template-rows: 1fr 50px 50px 25px 25px 25px;
-      padding:1rem;
-      background-color: #CAE8F7;
+      grid-template-rows: 1fr 45px 75px 25px 25px 25px;
+      padding:1.5rem;
+      
       color:black;
       margin: .5rem;
       border: 2px solid #1F8BC1;
       text-align: center;
       font-size: 17px;
   }
+  .towndata img{
+      width:75%;
+      margin-bottom:-1.5rem;
+  }
+
+  .home-thought{
+      background-color: rgba(202, 232, 247, 0.3);
+      margin:2rem;
+      padding:2rem;
+      max-width: 1200px;
+      border: 2px solid #1F8BC1;
+  }
+  
