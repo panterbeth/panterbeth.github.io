@@ -17,15 +17,15 @@ fetch(requestURL)
         image.setAttribute("alt", towns[i].photo);
         card.appendChild(image);
         document.querySelector("section.towndata").appendChild(card);
-         
+
         let h2= document.createElement("h2");
         h2.textContent=towns[i].name;
     card.appendChild(h2);
 document.querySelector("section.towndata").appendChild(card);  
 
-let h3=document.createElement("h3");
-h3.textContent=towns[i].motto;
-card.appendChild(h3);
+let h5=document.createElement("h5");
+h5.textContent=towns[i].motto;
+card.appendChild(h5);
 document.querySelector("section.towndata").appendChild(card);
      
 

@@ -16,8 +16,8 @@ display:inline-block;}*/
 .towndata {
 	max-width: 800px;
   margin: .5rem auto;
-	border:1px solid #bbb;
-  background-color: #eee;
+	
+  
 	display: flex;
     flex-wrap: wrap;
     
@@ -26,9 +26,10 @@ display:inline-block;}*/
     display: flex;
       flex-direction: row;
       padding:1rem;
-      background-color:black;
-      margin:1rem;
-      
+      background-color: #CAE8F7;
+      color:black;
+      margin: .5rem;
+      border: 2px solid #1F8BC1;
   }
 
 
@@ -36,7 +37,7 @@ display:inline-block;}*/
 	flex-direction: row-reverse;
 }
 
-.towndata img {border:1px solid #000080; width: 90%; height: auto;}
-.towndata { color:#fff;}
+.towndata img {width: 100%; height: auto;}
+
    
 }
