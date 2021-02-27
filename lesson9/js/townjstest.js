@@ -13,36 +13,42 @@ fetch(requestURL)
         let card= document.createElement("div");
 
         let image=document.createElement("img");
-        image.setAttribute("src", "images/"+towns[i].photo);
-        image.setAttribute("alt", towns[i].photo);
-        card.appendChild(image);
-        document.querySelector("section.towndata").appendChild(card);
-         
+            image.setAttribute("src", "images/"+towns[i].photo);
+            image.setAttribute("alt", towns[i].photo);
+            card.appendChild(image);
+            document.querySelector("section.towndata").appendChild(card);
+
+            let thing=document.createElement("article");
+            
+            document.querySelector("section.towndata").appendChild(card);
+           
+
+
         let h2= document.createElement("h2");
         h2.textContent=towns[i].name;
-    card.appendChild(h2);
-document.querySelector("section.towndata").appendChild(card);  
+    thing.appendChild(h2);
+document.querySelector("section.towndata").appendChild(thing);  
 
 let h3=document.createElement("h3");
 h3.textContent=towns[i].motto;
-card.appendChild(h3);
-document.querySelector("section.towndata").appendChild(card);
+thing.appendChild(h3);
+document.querySelector("section.towndata").appendChild(thing);
      
 
         let p=document.createElement("p");
         p.textContent="Year Founded: "+ towns[i].yearFounded;
-    card.appendChild(p);
-document.querySelector("section.towndata").appendChild(card);
+    thing.appendChild(p);
+document.querySelector("section.towndata").appendChild(thing);
 
 let p1=document.createElement("p");
 p1.textContent="Population: "+ towns[i].currentPopulation;
-card.appendChild(p1);
-document.querySelector("section.towndata").appendChild(card); 
+thing.appendChild(p1);
+document.querySelector("section.towndata").appendChild(thing); 
 
 let p2=document.createElement("p");
 p2.textContent="Annual Rain Fall: "+ towns[i].averageRainfall;
-card.appendChild(p2);
-document.querySelector("section.towndata").appendChild(card); 
+thing.appendChild(p2);
+document.querySelector("section.towndata").appendChild(thing); 
 
 /*const photos=["images/placeholder.png", "images/sunandrain.gif", "images/pexels-simon-berger-500.jpg"];
 for(let i=0; i<photos.length; i++){
@@ -58,7 +64,7 @@ let image=document.createElement("img");
 
 
             //this works
-          
+            
             
         }
 
