@@ -12,9 +12,12 @@ fetch(requestURL)
     for(let i=0; i<towns.length; i++){
         let card= document.createElement("div");
 
+        //let section=document.getElementsByClassName("towndata");
         let image=document.createElement("img");
         image.setAttribute("src", "images/"+towns[i].photo);
         image.setAttribute("alt", towns[i].photo);
+        //section.appendChild(image);
+        //document.querySelector("section.towndata").appendChild(section);
         card.appendChild(image);
         document.querySelector("section.towndata").appendChild(card);
 
