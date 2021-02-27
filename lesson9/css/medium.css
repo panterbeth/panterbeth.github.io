@@ -4,8 +4,26 @@
         display:grid;
         grid-template-columns: 1fr 1fr;
     }
-    /*picture{
-        margin:auto;
-    }*/
+    
+* {padding: .35rem;}
+.towndata h2 {text-align:center;}
+
+.towndata section {
+	max-width: 600px;
+  margin: .5rem auto;
+	border:1px solid #bbb;
+  background-color: #eee;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+
+.towndata section:nth-child(odd) {
+	flex-direction: row-reverse;
+}
+
+.towndata img {border:1px solid #000080; width: 100%; height: auto;}
+.towndata {background-color:#000; color:#fff;}
    
 }

@@ -52,7 +52,7 @@ let image=document.createElement("img");
 
             //this works
             let image=document.createElement("img");
-            image.setAttribute("src", towns[i].photo);
+            image.setAttribute("src", "images/"+towns[i].photo);
             image.setAttribute("alt", towns[i].photo);
             card.appendChild(image);
             document.querySelector("div.towndata").appendChild(card);
