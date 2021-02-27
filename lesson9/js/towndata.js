@@ -8,6 +8,7 @@ fetch(requestURL)
     const towns = jsonObject["towns"];
     towns.shift();
     towns.splice(1, 3);
+    
     for(let i=0; i<towns.length; i++){
         let card= document.createElement("section");
         let h2= document.createElement("h2");
@@ -36,12 +37,30 @@ p2.textContent="Annual Rain Fall: "+ towns[i].averageRainfall;
 card.appendChild(p2);
 document.querySelector("div.towndata").appendChild(card); 
 
-const photos=["images/placeholder.png", ];
-        let image=document.createElement("img");
-        image.setAttribute("src", "images/placeholder.png");
-        image.setAttribute("alt", towns[i].photo);
+/*const photos=["images/placeholder.png", "images/sunandrain.gif", "images/pexels-simon-berger-500.jpg"];
+for(let i=0; i<photos.length; i++){
+let image=document.createElement("img");
+        image.setAttribute("src", photos[0]);
+        image.setAttribute("alt", "notworking" );
         card.appendChild(image);
-        document.querySelector("div.towndata").appendChild(card);
-}
+        document.querySelector("div.towndata").appendChild(card);}*/
+
+        /*const photos=["images/placeholder.png", "images/sunandrain.gif", "images/pexels-simon-berger-500.jpg"];
+        for(let i=0; i<photos.length; i++){
+            let pic=i};*/
+
+
+            //this works
+       let image=document.createElement("img");
+                image.setAttribute("src", "images/"+towns[i].photo);
+                image.setAttribute("alt", towns[i].photo);
+                card.appendChild(image);
+                document.querySelector("div.towndata").appendChild(card);*/
+            }  
+
 
 });
+/*const photos=["images/placeholder.png", "images/sunandrain.gif", "images/pexels-simon-berger-500.jpg"];
+for(let i=0; i<photos.length; i++){
+    return i;
+}*/
