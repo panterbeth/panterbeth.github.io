@@ -10,7 +10,7 @@ fetch(requestURL)
     towns.splice(1, 3);
     
     for(let i=0; i<towns.length; i++){
-        let card= document.createElement("div");
+        let card= document.createElement("article");
 
         //let section=document.getElementsByClassName("towndata");
         let image=document.createElement("img");
@@ -21,30 +21,33 @@ fetch(requestURL)
         card.appendChild(image);
         document.querySelector("section.towndata").appendChild(card);
 
+        let card2=document.createElement("div");
+        
         let h2= document.createElement("h2");
         h2.textContent=towns[i].name;
-    card.appendChild(h2);
-document.querySelector("section.towndata").appendChild(card);  
+    card2.appendChild(h2);
+//document.querySelector("section.towndata").appendChild(card2);  
 
 let h5=document.createElement("h5");
 h5.textContent=towns[i].motto;
-card.appendChild(h5);
-document.querySelector("section.towndata").appendChild(card);
+card2.appendChild(h5);
+//document.querySelector("section.towndata").appendChild(card2);
      
 
         let p=document.createElement("p");
         p.textContent="Year Founded: "+ towns[i].yearFounded;
-    card.appendChild(p);
-document.querySelector("section.towndata").appendChild(card);
+    card2.appendChild(p);
+//document.querySelector("section.towndata").appendChild(card2);
 
 let p1=document.createElement("p");
 p1.textContent="Population: "+ towns[i].currentPopulation;
-card.appendChild(p1);
-document.querySelector("section.towndata").appendChild(card); 
+card2.appendChild(p1);
+//document.querySelector("section.towndata").appendChild(card2); 
 
 let p2=document.createElement("p");
 p2.textContent="Annual Rain Fall: "+ towns[i].averageRainfall;
-card.appendChild(p2);
+card2.appendChild(p2);
+card.appendChild(card2);
 document.querySelector("section.towndata").appendChild(card); 
 
 /*const photos=["images/placeholder.png", "images/sunandrain.gif", "images/pexels-simon-berger-500.jpg"];

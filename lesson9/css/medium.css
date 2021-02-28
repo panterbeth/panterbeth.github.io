@@ -14,33 +14,36 @@ display:block;}
 display:inline-block;}*/
 
 .towndata {
-	max-width: 800px;
-  margin: .5rem auto;
+	max-width: 600px;
+  margin: auto;
 	
   
 	display: flex;
     flex-wrap: wrap;
     
 }
-.towndata div {
+.towndata article{
     display: flex;
       flex-direction: row;
       padding:1rem;
       background-color: #CAE8F7;
       color:black;
-      margin: .5rem;
+      
       border: 2px solid #1F8BC1;
       
   }
 
 
-.towndata div:nth-child(odd){
+.towndata article:nth-child(odd){
     flex-direction: row-reverse;
     
 }
-
-.towndata img {width: 100%; height: auto;
+.towndata img{
+    width:55%;
+    
+    
 }
+
 
 
 /*.towndata{

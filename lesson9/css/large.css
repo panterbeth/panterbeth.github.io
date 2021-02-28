@@ -96,16 +96,22 @@ form label.sbs {
     max-width:1200px;
     margin: 1rem;
 }
-.towndata div {
+.towndata article{
     display: grid;
-      grid-template-rows: 1fr 50px 100px 40px 40px 40px;
-      padding:.5rem;
+      grid-template-rows: 1fr 200px;
+      
       background-color:rgba(202, 232, 247, 0.3);
-      color:black;
-      margin: 1rem;
-      border: 2px solid #1F8BC1;
-      text-align: center;
-      font-size: 18px;
+      
+      
+      font-size: 16px;
   }
-  
+  .towndata div{
+      display:grid;
+      grid-template-rows: 45px 70px 25px 25px 25px;
+      
+  }
+  .towndata img{
+      width:100%;
+  }
+
 }

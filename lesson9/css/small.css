@@ -318,27 +318,32 @@ form label.top input:required:valid{
      display:block;
  }
 
- .towndata div {
+ .towndata article{
     display: grid;
-      grid-template-rows: 1fr 45px 75px 25px 25px 25px;
-      padding:1.5rem;
-      
-      color:black;
-      margin: .5rem;
+      grid-template-rows: 1fr 1fr;
+      padding:1rem;
       border: 2px solid #1F8BC1;
+      color:black;
+      margin:1rem;
+      
       text-align: center;
-      font-size: 17px;
+      font-size: 14px;
   }
   .towndata img{
       width:75%;
-      margin-bottom:-1.5rem;
+      
+      display:block; margin-left:auto; margin-right:auto; box-sizing:border-box; width:100%;
+    padding:1rem;
+    
   }
 
   .home-thought{
       background-color: rgba(202, 232, 247, 0.3);
-      margin:2rem;
-      padding:2rem;
+      margin:.5rem;
+      padding:1rem;
       max-width: 1200px;
       border: 2px solid #1F8BC1;
   }
-  
+  .towndata h2{
+    margin-bottom:-3rem;
+}
