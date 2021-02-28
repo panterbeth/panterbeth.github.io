@@ -245,8 +245,9 @@ article img{
 }
 
 /*-----Form------*/
+
 form fieldset {
-    margin: 2rem 1rem;
+    
     border: 1px solid #1F8BC1;
     border-radius: 10px;
     padding: .5rem;
@@ -304,20 +305,24 @@ form label.top input:required{
 form label.top input:required:valid{
     border-left: green solid 6px;
 }
- #rating{
+ #ratingvalue{
      padding:0;
+    
  }
+
 
  #stormheadline{
      text-align: left;
-     margin-bottom: -2.5rem;
-     margin-left: 1rem;
+     margin-bottom: -1.5rem;
+     
  }
 
  #textbox{
      display:block;
  }
 
+
+ /*lesson 9*/
  .towndata article{
     display: grid;
       grid-template-rows: 1fr 1fr;

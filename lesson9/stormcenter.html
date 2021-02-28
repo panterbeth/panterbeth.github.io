@@ -76,7 +76,7 @@
                        <option value="Tornado"></option>
 
                      </datalist>
-                     <label  for="rating" class="top">Storm Severity (1-10)<input id="rating" type="range" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)" name="rating"><span id="ratingvalue">5</span></label>
+                     <label  for="rating" class="top">Storm Severity (1-10)<input type="range" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)" name="rating"><span id="ratingvalue">5</span></label>
                      <datalist id="tickmarks">
                          <option value="0"></option>
                          <option value="1"></option>
@@ -101,7 +101,7 @@
                 <fieldset>
                     <legend>Additional Comments or Information</legend>
                     
-                     <label name="comments" class="top">Please enter any additional details below.<textarea id="textbox" rows="5" cols="50">
+                     <label name="comments" class="top">Please enter any additional details below.<textarea id="textbox" rows="5" cols="40">
                       </textarea>
                      </label>
                     
