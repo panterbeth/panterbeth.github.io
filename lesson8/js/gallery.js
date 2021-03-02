@@ -40,3 +40,7 @@ var now = new Date();
         document.getElementById("pancakes").innerHTML = response;}
         else{response="";
     document.getElementById("pancakes").style.display="none";}
+
+    function adjustRating(rating){
+        document.getElementById("ratingvalue").innerHTML=rating;
+    }  

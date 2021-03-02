@@ -303,7 +303,7 @@ form label.top input:required:valid{
     border-left: green solid 6px;
 }
  #rating{
-     padding:.75rem 0;
+     padding:0;
  }
 
  #stormheadline{
