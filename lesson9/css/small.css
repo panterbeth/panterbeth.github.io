@@ -325,7 +325,7 @@ form label.top input:required:valid{
  /*lesson 9*/
  .towndata article{
     display: grid;
-      grid-template-rows: 1fr 1fr;
+      grid-template-rows: 1fr 50%;
       padding:1rem;
       border: 2px solid #1F8BC1;
       color:black;
@@ -351,4 +351,8 @@ form label.top input:required:valid{
   }
   .towndata h2{
     margin-bottom:-3rem;
+}
+.towndata div{
+    margin-bottom:1rem;
+    margin-top:-1rem;
 }
