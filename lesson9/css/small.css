@@ -246,7 +246,7 @@ article img{
 
 /*-----Form------*/
 
-form fieldset {
+/*form fieldset {
     
     border: 1px solid #1F8BC1;
     border-radius: 10px;
@@ -315,6 +315,78 @@ form label.top input:required:valid{
      text-align: left;
      margin-bottom: -1.5rem;
      
+ }
+
+ #textbox{
+     display:block;
+ }*/
+ form fieldset {
+    margin: 2rem 1rem;
+    border: 1px solid #1F8BC1;
+    border-radius: 10px;
+    padding: .5rem;
+}
+
+form legend{
+    color: black;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+
+}
+
+form label.top, form div{
+    display: block;
+    padding-top: 1rem;
+    color: black;
+    font-size: .8rem;
+
+}
+
+form label.top input, form label.top select{
+    -webkit-appearance: none;
+    display:block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem 0;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(202, 232, 247, 0.3);
+}
+
+form label.sbs{
+    display: block;
+    padding: .75rem 0;
+    color: #555;
+}
+
+form input.submitBtn{
+    border: none;
+    background-color:#DAA538;
+    color: black;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 1rem;
+    width: 96%;
+    max-width: 20rem;
+}
+
+form label.top input:required{
+    border-left: red solid 6px;
+}
+
+form label.top input:required:valid{
+    border-left: green solid 6px;
+}
+ #rating{
+     padding:0;
+ }
+
+ #stormheadline{
+     text-align: left;
+     margin-bottom: -2.5rem;
+     margin-left: 1rem;
  }
 
  #textbox{

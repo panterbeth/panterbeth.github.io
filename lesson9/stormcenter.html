@@ -30,7 +30,7 @@
     <button onclick="toggleMenu()">&#9776; Menu</button>
     <ul id="primaryNav" class="hide">
        
-        <li><a href="index.html">Home</a></li>
+        <li><a href="#">Home</a></li>
         <li ><a href="preston-7.html">Preston</a></li>
         <li><a href="#">Soda Springs</a></li>
         <li><a href="#">Fish Haven</a></li>   
@@ -76,7 +76,7 @@
                        <option value="Tornado"></option>
 
                      </datalist>
-                     <label  for="rating" class="top">Storm Severity (1-10)<input type="range" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)" name="rating"><span id="ratingvalue">5</span></label>
+                     <label  for="rating" class="top">Storm Severity (1-10)<input id="rating" type="range" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)" name="rating"><span id="ratingvalue">5</span></label>
                      <datalist id="tickmarks">
                          <option value="0"></option>
                          <option value="1"></option>
@@ -123,6 +123,7 @@
     </footer>
     <script src="js/gallery.js"></script>
     <script src="js/toggle.js"></script>
+    <script src="js/rating.js"></script>
     
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
    <script>WebFont.load({
