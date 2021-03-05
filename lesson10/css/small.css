@@ -436,10 +436,11 @@ table, th{
     padding: 10px;
     margin-left:auto;
     margin-right:auto;
+    text-align:center;
     
    
 }
-.temperature td{
+table, td{
     color:black;
     text-align: right;
     font-size:22px;

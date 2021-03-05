@@ -30,6 +30,7 @@ fetch(forecastURL)
     for(let i=0; i<list.length; i++){
         let extract=list[i].dt_txt.substr(11);
         if(extract=="18:00:00"){
+        //let card2=document.createElement("tr");
         let card= document.createElement("th");
         
 
@@ -39,27 +40,19 @@ let image=document.createElement("img");
         image.setAttribute("src", imagesrc);
         image.setAttribute("alt", desc);
         card.appendChild(image);
-        document.querySelector("tr.temperature").appendChild(card);
+       // document.querySelector("tr.temperature").appendChild(card);
 
         let td= document.createElement("td");
         td.textContent=((list[i].main.temp-273.15)*(9/5)+32).toFixed(0)+ "ºF";
        // ((jsObject.main.temp-273.15)*(9/5)+32).toFixed(2)
     card.appendChild(td);
-document.querySelector("tr.temperature").appendChild(card); 
+document.querySelector("table").appendChild(card); 
+//card2.appendChild(card);
+document.querySelector("table").appendChild(card);
 }
      
 
-      /*  let p=document.createElement("p");
-        p.textContent="Date of Birth: "+ prophets[i].birthdate;
-    card.appendChild(p);
-document.querySelector("div.cards").appendChild(card);
-
-let p1=document.createElement("p");
-p1.textContent="Place of Birth: "+ prophets[i].birthplace;
-card.appendChild(p1);
-document.querySelector("div.cards").appendChild(card); 
-
-        */
+    
 }
 
 });
