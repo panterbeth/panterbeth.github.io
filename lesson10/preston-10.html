@@ -56,11 +56,11 @@
     
        <section class="weather">
         <h3>Weather Summary</h3>
-        <p>Currently: <span id="current">Sunny</span></p>
-        <p>High: <span id="high">32</span>&#176;F</p>
+        <p>Currently: <span id="weather"></span> <span id="current"></span>&#176;F </p>
+        <p>High: <span id="high"></span>&#176;F</p>
         <p>Wind Chill: <span id="windchill"></span></p>
-         <p>Humidity: <span id="humidity">69%</span></p>
-         <p>Wind Speed: <span id="windspeed">6</span>mph</p>
+         <p>Humidity: <span id="humidity"></span></p>
+         <p>Wind Speed: <span id="windspeed"></span>mph</p>
        </section>
       </div>
 
@@ -92,7 +92,7 @@
               72&#176;
               
             </th>
-            <th class="temp">
+            <th class="temp" id="day2">
               <img src="images/forecastimage.svg" alt="sun">
               72&#176;
             </th>
@@ -155,6 +155,7 @@
     }
   });</script>
   <script src="js/windchill.js"></script>
+  <script src="js/weatherapipres.js"></script>
   
     
 </body>
