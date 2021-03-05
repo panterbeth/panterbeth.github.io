@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lesson 7 Preston Home Page</title>
+  <meta name="description" content="Preston Home Page Assignment WDD 230 BYU-I">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link href="css/small.css" rel="stylesheet">
+  <link href="css/medium.css" rel="stylesheet">
+  <link href="css/large.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body onload="doInputOutput()">
+  <aside id="pancakes" style="display:block;">
+    
+  </aside>
+  <header>   
+    
+  <img id="logo" alt="sun and rain" src="images/sunandrain.gif">
+  <section class="headings">
+        <h1>Rays of Sun</h1>
+        <div>Your Place for Weather News</div>
+    </section>
+  </header>
+  <nav class="clearfix">
+    <button onclick="toggleMenu()">&#9776; Menu</button>
+    <ul id="primaryNav" class="hide">
+       
+        <li><a href="index.html">Home</a></li>
+        <li class="active"><a href="#">Preston</a></li>
+        <li><a href="#">Soda Springs</a></li>
+        <li><a href="#">Fish Haven</a></li>   
+        <li><a href="stormcenter.html">Storm Center</a></li>
+        <li ><a href="gallery-7.html">Gallery</a></li>
+        
+
+    </ul>
+</nav>
+  
+  <main>
+    
+    <h2 id="townname">Preston Idaho</h2>
+    <div class="herodiv">
+      <figure class="myphoto">
+        <img src="images/banner-pexels-simon-berger-opt.jpg" alt="mountains" sizes="50vw" 
+        srcset="images/pexels-simon-berger-500.jpg 500w,
+                images/pexels-simon-berger-800.jpg 800w,
+                images/pexels-simon-berger-1100.jpg 1100w">
+       
+    </figure>
+  
+    
+       <section class="weather">
+        <h3>Weather Summary</h3>
+        <p>Currently: <span id="current">Sunny</span></p>
+        <p>High: <span id="high">32</span>&#176;F</p>
+        <p>Wind Chill: <span id="windchill"></span></p>
+         <p>Humidity: <span id="humidity">69%</span></p>
+         <p>Wind Speed: <span id="windspeed">6</span>mph</p>
+       </section>
+      </div>
+
+     
+     
+    <section class="mainforecast">
+      <h3 id="fivedayheader">5 Day Forecast</h3> 
+       <div class="forecast"><table>
+          <tr class="daysofweek">
+            <th>
+              <span id="dayPlusOne"></span>
+            </th>
+            <th>
+              <span id="dayPlusTwo"></span>
+            </th>
+            <th>
+              <span id="dayPlusThree"></span>
+            </th>
+            <th>
+              <span id="dayPlusFour"></span>
+            </th>
+            <th>
+              <span id="dayPlusFive"></span>
+            </th>
+          </tr>
+          <tr class="temperature">
+            <th class="temp">
+              <img src="images/forecastimage.svg" alt="sun">
+              72&#176;
+              
+            </th>
+            <th class="temp">
+              <img src="images/forecastimage.svg" alt="sun">
+              72&#176;
+            </th>
+            <th class="temp">
+              <img src="images/forecastimage.svg" alt="sun">
+              72&#176;
+            </th>
+            
+            <th class="temp">
+              <img src="images/forecastimage.svg" alt="sun">
+              72&#176;
+            </th>
+            <th >
+              <img src="images/forecastimage.svg" alt="sun">
+              72&#176;
+            </th>
+          </tr>
+        </table></div>
+      </section>
+    <div class="content">
+      <img id="peoplepark" src="images/park-pexels-mentatdgt-1220755.jpg" alt="people in park">
+      <h3 id="article">Article</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet est placerat in egestas erat imperdiet sed euismod nisi. Dolor magna eget est lorem ipsum dolor. Neque aliquam vestibulum morbi blandit cursus risus at. Congue eu consequat ac felis donec et odio pellentesque diam. Cras tincidunt lobortis feugiat vivamus at augue eget arcu dictum. Viverra vitae congue eu consequat ac felis donec et. At risus viverra adipiscing at in tellus integer feugiat scelerisque. Nec feugiat nisl pretium fusce id velit ut tortor. Egestas sed tempus urna et pharetra pharetra massa. Vel eros donec ac odio tempor. Tincidunt eget nullam non nisi est sit amet.
+
+        Ultrices dui sapien eget mi proin sed libero enim. Turpis egestas integer eget aliquet. Dolor magna eget est lorem ipsum dolor sit amet. Tincidunt ornare massa eget egestas purus viverra accumsan in. Ultricies tristique nulla aliquet enim tortor at auctor urna. Habitant morbi tristique senectus et. Pretium vulputate sapien nec sagittis aliquam malesuada. Tincidunt eget nullam non nisi est sit amet. Massa sed elementum tempus egestas sed. Purus gravida quis blandit turpis cursus. Ut consequat semper viverra nam. Malesuada proin libero nunc consequat interdum varius sit amet mattis. Urna molestie at elementum eu facilisis. Ornare lectus sit amet est placerat in egestas. Faucibus nisl tincidunt eget nullam.</p>
+      
+    </div>
+    <section id="contact">
+      <img class="googlemap" src="images/googlemap.png" alt="map">
+      <div><h4>Rays of Sun</h4>
+      <p>
+        <i class="material-icons">&#xe55f;</i> 2021 West Dr.<br>
+        &#9993; Hometown, WA 92472<br><br>
+      &#9742; 987-654-3210<br>
+      raysofsun.com
+      </p>
+      
+      <img id="mediapic" src="images/media.png" alt="socialmedia"></div>
+      
+    </section>
+
+  </main>
+  <footer>
+    &copy;<span id="currentyear"></span> 
+    | Bethany Panter |<a id="portal-page" href="https://panterbeth.github.io/"> Washington</a> |
+      <a id="footerlink" href="https://www.byui.edu/online">BYUI Online Learning</a> <br>
+      <span id="currentdate"></span>
+
+    </footer>
+    <script src="js/dateyearcopy.js"></script>
+    <script src="js/toggle.js"></script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+   <script>WebFont.load({
+    google: {
+      families: [
+      'Overpass Mono',
+      'Fraunces'
+      ]
+    }
+  });</script>
+  <script src="js/windchill.js"></script>
+  
+    
+</body>
+</html>
