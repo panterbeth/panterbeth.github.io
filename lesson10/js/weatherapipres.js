@@ -22,7 +22,14 @@ document.getElementById("icon").setAttribute("alt", desc);*/
 const forecastURL="http://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=d211895bcb1310c1dd13ddc706b3bb98"
 fetch(forecastURL)
 .then((response)=> response.json())
-.then((jsObject)=>{
-    console.log(jsObject)
-   
-})
+
+.then((jsonObject)=>{
+    console.log(jsonObject)
+
+    
+    
+  
+    
+
+
+    });
