@@ -21,15 +21,37 @@ document.getElementById("icon").setAttribute("alt", desc);*/
 
 const forecastURL="http://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=d211895bcb1310c1dd13ddc706b3bb98"
 fetch(forecastURL)
-.then((response)=> response.json())
+.then(function(response){
+    return response.json();
+})
+.then(function (jsonObject){
+    console.table(jsonObject);
+    const list = jsonObject["list"];
+    for(let i=0; i<list.length; i++){
+        let extract=list[i].dt_txt.substr(11);
+        if(extract=="18:00:00"){
+        let card= document.createElement("th");
+        let p= document.createElement("p");
+        p.textContent=list[i].main.temp;
+    card.appendChild(p);
+document.querySelector("tr.temperature").appendChild(card);   }
+     
 
-.then((jsonObject)=>{
-    console.log(jsonObject)
+      /*  let p=document.createElement("p");
+        p.textContent="Date of Birth: "+ prophets[i].birthdate;
+    card.appendChild(p);
+document.querySelector("div.cards").appendChild(card);
 
-    
-    
-  
-    
+let p1=document.createElement("p");
+p1.textContent="Place of Birth: "+ prophets[i].birthplace;
+card.appendChild(p1);
+document.querySelector("div.cards").appendChild(card); 
 
+        let image=document.createElement("img");
+        image.setAttribute("src", prophets[i].imageurl);
+        image.setAttribute("alt", prophets[i].name+" "+prophets[i].lastname+"-"+prophets[i].order);
+        card.appendChild(image);
+        document.querySelector("div.cards").appendChild(card);*/
+}
 
-    });
+});
