@@ -9,7 +9,7 @@ fetch(apiURL)
     
 
     document.getElementById("high").textContent=((jsObject.main.temp_max-273.15)*(9/5)+32).toFixed(2);
-    document.getElementById("humidity").textContent=jsObject.main.humidity;
+    document.getElementById("humidity").textContent=jsObject.main.humidity+"%";
     document.getElementById("windspeed").textContent=jsObject.wind.speed;
 
 })
@@ -41,10 +41,10 @@ let image=document.createElement("img");
         card.appendChild(image);
         document.querySelector("tr.temperature").appendChild(card);
 
-        let p= document.createElement("p");
-        p.textContent=((list[i].main.temp-273.15)*(9/5)+32).toFixed(0)+ "ºF";
+        let td= document.createElement("td");
+        td.textContent=((list[i].main.temp-273.15)*(9/5)+32).toFixed(0)+ "ºF";
        // ((jsObject.main.temp-273.15)*(9/5)+32).toFixed(2)
-    card.appendChild(p);
+    card.appendChild(td);
 document.querySelector("tr.temperature").appendChild(card); 
 }
      

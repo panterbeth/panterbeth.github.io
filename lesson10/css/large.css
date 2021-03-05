@@ -37,7 +37,6 @@
     color: #fff;
     background-color: white;
     padding: 10px;
-    border: 1px solid black;
     margin: 10px;
     
 }
@@ -55,11 +54,7 @@
         display:list-item;
         border:3px solid white;
     }
- .mainforecast{
-        display:inline;
-    }
-    table { width:100%}
-    th { width:20%;}
+ }
  aside{
         font-size: 22px;
        
@@ -114,4 +109,3 @@ form label.sbs {
       width:100%;
   }
 
-}
