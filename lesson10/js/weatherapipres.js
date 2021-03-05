@@ -32,7 +32,8 @@ fetch(forecastURL)
         if(extract=="18:00:00"){
         let card= document.createElement("th");
         let p= document.createElement("p");
-        p.textContent=list[i].main.temp;
+        p.textContent=((list[i].main.temp-273.15)*(9/5)+32).toFixed(0)+ "ºF";
+       // ((jsObject.main.temp-273.15)*(9/5)+32).toFixed(2)
     card.appendChild(p);
 document.querySelector("tr.temperature").appendChild(card);   }
      
