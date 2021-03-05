@@ -31,11 +31,7 @@ fetch(forecastURL)
         let extract=list[i].dt_txt.substr(11);
         if(extract=="18:00:00"){
         let card= document.createElement("th");
-        let p= document.createElement("p");
-        p.textContent=((list[i].main.temp-273.15)*(9/5)+32).toFixed(0)+ "ºF";
-       // ((jsObject.main.temp-273.15)*(9/5)+32).toFixed(2)
-    card.appendChild(p);
-document.querySelector("tr.temperature").appendChild(card); 
+        
 
 const imagesrc="https://openweathermap.org/img/w/" + jsonObject.list[i].weather[0].icon + ".png"; //note the concatenation
 const desc =jsonObject.list[i].weather[0].description;
@@ -44,6 +40,12 @@ let image=document.createElement("img");
         image.setAttribute("alt", desc);
         card.appendChild(image);
         document.querySelector("tr.temperature").appendChild(card);
+
+        let p= document.createElement("p");
+        p.textContent=((list[i].main.temp-273.15)*(9/5)+32).toFixed(0)+ "ºF";
+       // ((jsObject.main.temp-273.15)*(9/5)+32).toFixed(2)
+    card.appendChild(p);
+document.querySelector("tr.temperature").appendChild(card); 
 }
      
 
