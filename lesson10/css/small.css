@@ -447,7 +447,7 @@ table, th{
 
 
 .mainforecast{
-    display:inline;
+    display:none;
     
 }
 table { width:75%;

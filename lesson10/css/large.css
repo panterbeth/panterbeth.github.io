@@ -54,12 +54,15 @@
         display:list-item;
         border:3px solid white;
     }
- }
+ 
  aside{
         font-size: 22px;
        
     }
-   
+    .mainforecast{
+        display:inline;
+        
+    } 
     .weather {
         display:inline;
         position: absolute;
@@ -109,3 +112,4 @@ form label.sbs {
       width:100%;
   }
 
+}
