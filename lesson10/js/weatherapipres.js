@@ -1,4 +1,4 @@
-const apiURL="http://api.openweathermap.org/data/2.5/weather?id=5604473&appid=d211895bcb1310c1dd13ddc706b3bb98"
+const apiURL="https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=d211895bcb1310c1dd13ddc706b3bb98"
 fetch(apiURL)
 .then((response)=> response.json())
 .then((jsObject)=>{
@@ -19,7 +19,7 @@ document.getElementById("imagesrc").textContent=imagesrc; //informational specif
 document.getElementById("icon").setAttribute("src", imagesrc); //focus on the setAttribute() method
 document.getElementById("icon").setAttribute("alt", desc);*/
 
-const forecastURL="http://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=d211895bcb1310c1dd13ddc706b3bb98"
+const forecastURL="https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=d211895bcb1310c1dd13ddc706b3bb98"
 fetch(forecastURL)
 .then(function(response){
     return response.json();
