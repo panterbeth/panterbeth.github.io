@@ -48,10 +48,10 @@
             <form method="get" action="thanks.html">
                 <fieldset>
                     <legend>Personal Information</legend>
-                    <label class="top">Name*<input type="text" name="name"  required pattern="[A-Za-z].{4,}" required></label>
+                    <label class="top">Name*<input type="text" name="name"  pattern="[A-Za-z]{5,}" required></label>
                     
                     <label class="top">Phone*<input type="tel" name="phone" placeholder="1235551234" required></label>
-                    <label for="zip" class="top">Zip Code:*<input id="zip"  type="number" pattern="(\d{5}([\-]\d{4})?)" name="zip" required></label>
+                    <label for="zip" class="top">Zip Code:*<input id="zip" type="number" name="zip" required></label>
                     <label class="top">Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
                     
                 </fieldset>
