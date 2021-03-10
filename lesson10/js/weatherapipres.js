@@ -11,7 +11,7 @@ fetch(apiURL)
     document.getElementById("high").textContent=((jsObject.main.temp_max-273.15)*(9/5)+32).toFixed(2);
     document.getElementById("humidity").textContent=jsObject.main.humidity+"%";
     document.getElementById("windspeed").textContent=jsObject.wind.speed;
-    document.getElementById("windchill").textContent=doInputOutput(((jsObject.main.temp-273.15)*(9/5)+32),jsObject.wind.speed);
+    document.getElementById("windchill").textContent=doInputOutput(((jsObject.main.temp-273.15)*(9/5)+32),jsObject.wind.speed).toFixed(2);
 })
 /*const imagesrc="https://openweathermap.org/img/w/" + jsObject.weather[0].icon + ".png"; //note the concatenation
 const desc =jsObject.weather[0].description; //note how we reference the weather array
