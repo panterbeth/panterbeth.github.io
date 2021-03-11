@@ -454,3 +454,4 @@ table, td{
 table { width:75%;
 }
 th { width:20%;}
+.home-thought {display:block; box-sizing:border-box; margin:30px; }
