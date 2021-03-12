@@ -8,8 +8,8 @@ fetch(requestURL)
     const towns = jsonObject["towns"];
     towns.shift();
     towns.splice(1, 3);
-    let events=towns[0].events;
-    let fish=document.createElement("div");
+    let events=towns[1].events;
+    let pres=document.createElement("div");
     for(let i=0; i<events.length; i++){
 
     
@@ -17,8 +17,7 @@ fetch(requestURL)
 
 let p5=document.createElement("p");
 p5.textContent=events[i];
-fish.appendChild(p5);
-document.querySelector("section.fishy").appendChild(fish);}
+pres.appendChild(p5);
+document.querySelector("section.presevent").appendChild(pres);}
 
-})
-;
+});
