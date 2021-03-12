@@ -456,10 +456,20 @@ table { width:75%;
 th { width:20%;}
 .home-thought {display:block; box-sizing:border-box; margin:30px; }
 
-
+.events h3{
+    border-bottom: black 1px dashed;
+    
+    padding:5px;
+}
 .events{
     border:#1F8BC1 5px solid;
     display:block; box-sizing:border-box; margin:30px;
     width:fit-content;
     margin-left:auto; margin-right:auto;
+   padding: 25px;
+   font-weight:600;
+   
+}
+.events div p{
+    padding:10px;
 }
