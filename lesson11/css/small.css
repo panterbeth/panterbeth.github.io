@@ -473,3 +473,7 @@ th { width:20%;}
 .events div p{
     padding:10px;
 }
+
+.content img{
+    width: 75%;
+}
