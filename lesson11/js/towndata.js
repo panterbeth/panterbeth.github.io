@@ -9,6 +9,7 @@ fetch(requestURL)
     towns.shift();
     towns.splice(1, 3);
     
+
     for(let i=0; i<towns.length; i++){
         let card= document.createElement("article");
 
@@ -67,7 +68,7 @@ let image=document.createElement("img");
           
             
         }
-
+      
 });
 /*const photos=["images/placeholder.png", "images/sunandrain.gif", "images/pexels-simon-berger-500.jpg"];
 for(let i=0; i<photos.length; i++){
