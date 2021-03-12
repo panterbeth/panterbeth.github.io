@@ -455,3 +455,11 @@ table { width:75%;
 }
 th { width:20%;}
 .home-thought {display:block; box-sizing:border-box; margin:30px; }
+
+
+.events{
+    border:#1F8BC1 5px solid;
+    display:block; box-sizing:border-box; margin:30px;
+    width:fit-content;
+    margin-left:auto; margin-right:auto;
+}
