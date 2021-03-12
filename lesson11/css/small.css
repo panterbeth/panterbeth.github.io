@@ -474,6 +474,6 @@ th { width:20%;}
     padding:10px;
 }
 
-.content img{
-    width: 75%;
-}
+/*.content img{
+    max-width: 400px;
+}*/
