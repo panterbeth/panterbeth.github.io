@@ -37,3 +37,7 @@ tbody tr:nth-child(odd){
     color: white;
     font-size: 18px;
 }
+
+tbody tr:nth-child(5) td:nth-child(odd){
+    font-style:italic;
+}
