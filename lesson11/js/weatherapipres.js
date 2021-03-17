@@ -5,10 +5,10 @@ fetch(apiURL)
     console.log(jsObject)
     document.getElementById("weather").textContent=jsObject.weather[0].description;
 
-    document.getElementById("current").textContent=((jsObject.main.temp-273.15)*(9/5)+32).toFixed(2);
+    document.getElementById("current").textContent=((jsObject.main.temp-273.15)*(9/5)+32).toFixed(0);
     
 
-    document.getElementById("high").textContent=((jsObject.main.temp_max-273.15)*(9/5)+32).toFixed(2);
+    document.getElementById("high").textContent=((jsObject.main.temp_max-273.15)*(9/5)+32).toFixed(0);
     document.getElementById("humidity").textContent=jsObject.main.humidity+"%";
     document.getElementById("windspeed").textContent=jsObject.wind.speed;
     document.getElementById("windchill").textContent=doInputOutput(((jsObject.main.temp-273.15)*(9/5)+32),jsObject.wind.speed);
