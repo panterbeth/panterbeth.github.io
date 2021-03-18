@@ -7,10 +7,12 @@ fetch(requestURL)
     console.table(jsonObject);
     const towns = jsonObject["towns"];
     towns.shift();
-    towns.splice(1, 3);
+   towns.splice(1, 3);
+   //if(towns[i].name=="Soda Springs"){
     let events=towns[2].events;
     let soda=document.createElement("div");
     for(let i=0; i<events.length; i++){
+        
 
     
 

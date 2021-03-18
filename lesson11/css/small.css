@@ -458,12 +458,12 @@ table { width:75%;
 th { width:20%;}
 .home-thought {display:block; box-sizing:border-box; margin:30px; }
 
-.events h3{
+.upcomingevent h3{
     border-bottom: black 1px dashed;
     
     padding:5px;
 }
-.events{
+.upcomingevent{
     border:#1F8BC1 5px solid;
     display:block; box-sizing:border-box; margin:30px;
     width:fit-content;
@@ -472,7 +472,7 @@ th { width:20%;}
    font-weight:600;
    
 }
-.events div p{
+.upcomingevent p{
     padding:10px;
 }
 
