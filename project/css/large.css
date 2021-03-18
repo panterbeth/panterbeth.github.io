@@ -45,15 +45,9 @@
     float: right;}
 
 
-#contact{
-    display:grid;
-    grid-template-columns: 1fr 1fr;  
-    }
 
-.googlemap{
-        display:list-item;
-        border:3px solid white;
-    }
+
+
  
  aside{
         font-size: 22px;
@@ -76,40 +70,12 @@
         
     }
   
-    .gallery-home {
-        display:grid;
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-.gallery-pics:hover {
-    box-shadow: 0 0 50px #333;
-}
+
 
 form label.sbs {
     padding: .4rem 0;
 }
 
-.towndata{
-    display:grid;
-    grid-template-columns: repeat(3, 1fr);
-    max-width:1200px;
-    margin: 1rem;
-}
-.towndata article{
-    display: grid;
-      grid-template-rows: 1fr 200px;
-      
-      background-color:rgba(202, 232, 247, 0.3);
-      
-      
-      font-size: 16px;
-  }
-  .towndata div{
-      display:grid;
-      grid-template-rows: 45px 70px 25px 25px 25px;
-      
-  }
-  .towndata img{
-      width:100%;
-  }
+
 
 }
