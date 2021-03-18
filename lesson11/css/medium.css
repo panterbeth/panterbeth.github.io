@@ -44,7 +44,8 @@ display:inline-block;}*/
     
 }
 
-
+.content img{
+    max-width:500px;}
 
 /*.towndata{
     max-width:800px;
