@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Page</title>
+  <meta name="description" content="Home Page Assignment WDD 230 BYU-I">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link href="css/small.css" rel="stylesheet">
+  <link href="css/medium.css" rel="stylesheet">
+  <link href="css/large.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+  <aside id="pancakes" style="display:block;">
+    
+  </aside>
+  <header>   
+    
+  <img id="logo" alt="sun and rain" src="images/sunandrain.gif">
+  <section class="headings">
+        <h1>Rays of Sun</h1>
+        <div>Your Place for Weather News</div>
+    </section>
+  </header>
+  <nav class="clearfix">
+    <button onclick="toggleMenu()">&#9776; Menu</button>
+    <ul id="primaryNav" class="hide">
+       
+        <li class="active"><a href="#">Home</a></li>
+        <li ><a href="preston.html">Preston</a></li>
+        <li><a href="sodasprings.html">Soda Springs</a></li>
+        <li><a href="fishhaven.html">Fish Haven</a></li>   
+        <li><a href="stormcenter.html">Storm Center</a></li>
+        <li ><a href="gallery.html">Gallery</a></li>
+        
+
+    </ul>
+</nav>
+  
+  <main class="home-main">
+    
+    
+    <div class="herodiv">
+      <figure class="myphoto">
+        <img src="images/home-1200.jpg" alt="barn" sizes="50vw" 
+        srcset="images/home-500.jpg 500w,
+                images/home-800.jpg 800w,
+                images/home-1100.jpg 1100w">
+       
+    </figure>
+    </div>
+    <div class="home-thought">
+      
+      <h3 id="home-thought2">Kindness Korner</h3>
+      <p> 
+        Every week there are many kind hearted souls in our community that watch out for and provide kind acts of service. This space is reserved to honor them and their good deeds.
+        This week Natalie L. organized a group of friends to report to one another on kind things they had seen others do. She promised that she would bake fresh cookies to the winner of her very own kindness drawing.
+        Each friend enters their name once for each time they either do a kind thing or report on something they witness others doing for them or for others. Natalie is a great example that we can recognize those who are working to lift up others. Thanks Natalie for encouraging us to be better and look for the good.
+      </p>
+    </div>
+  
+    <section class="towndata">
+     
+      
+    </section>
+       
+    
+     
+    
+        
+    
+    <section id="contact">
+      <img class="googlemap" src="images/googlemap.png" alt="map">
+      <div><h4>Rays of Sun</h4>
+      <p>
+        <i class="material-icons">&#xe55f;</i> 2021 West Dr.<br>
+        &#9993; Hometown, WA 92472<br><br>
+      &#9742; 987-654-3210<br>
+      raysofsun.com
+      </p>
+      
+      <img id="mediapic" src="images/media.png" alt="socialmedia"></div>
+      
+    </section>
+
+  </main>
+  <footer>
+    &copy;<span id="currentyear"></span> 
+    | Bethany Panter |<a id="portal-page" href="https://panterbeth.github.io/"> Washington</a> |
+      <a id="footerlink" href="https://www.byui.edu/online">BYUI Online Learning</a> <br>
+      <span id="currentdate"></span>
+
+    </footer>
+    <script src="js/gallery.js"></script>
+    <script src="js/toggle.js"></script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+   <script>WebFont.load({
+    google: {
+      families: [
+      'Overpass Mono',
+      'Fraunces'
+      ]
+    }
+  });</script>
+  
+  <script src="js/towndata.js"></script>
+  
+    
+</body>
+</html>

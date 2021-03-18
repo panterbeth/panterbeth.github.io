@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Preston Home Page</title>
+  <meta name="description" content="Preston Home Page Assignment WDD 230 BYU-I">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link href="css/small.css" rel="stylesheet">
+  <link href="css/medium.css" rel="stylesheet">
+  <link href="css/large.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body >
+  <aside id="pancakes" style="display:block;">
+    
+  </aside>
+  <header>   
+    
+  <img id="logo" alt="sun and rain" src="images/sunandrain.gif">
+  <section class="headings">
+        <h1>Rays of Sun</h1>
+        <div>Your Place for Weather News</div>
+    </section>
+  </header>
+  <nav class="clearfix">
+    <button onclick="toggleMenu()">&#9776; Menu</button>
+    <ul id="primaryNav" class="hide">
+       
+        <li><a href="index.html">Home</a></li>
+        <li class="active"><a href="#">Preston</a></li>
+        <li><a href="sodasprings.html">Soda Springs</a></li>
+        <li><a href="fishhaven.html">Fish Haven</a></li>   
+        <li><a href="stormcenter.html">Storm Center</a></li>
+        <li ><a href="gallery.html">Gallery</a></li>
+        
+
+    </ul>
+</nav>
+  
+  <main>
+    
+    <h2 id="townname">Preston Idaho</h2>
+    <div class="herodiv">
+      <figure class="myphoto">
+        <img src="images/banner-pexels-simon-berger-opt.jpg" alt="mountains" sizes="50vw" 
+        srcset="images/pexels-simon-berger-500.jpg 500w,
+                images/pexels-simon-berger-800.jpg 800w,
+                images/pexels-simon-berger-1100.jpg 1100w">
+       
+    </figure>
+  
+    
+       <section class="weather">
+        <h3>Weather Summary</h3>
+        <p>Currently: <span id="weather"></span> <span id="current"></span>&#176;F </p>
+        <p>High: <span id="high"></span>&#176;F</p>
+        <p>Wind Chill: <span id="windchill"></span></p>
+         <p>Humidity: <span id="humidity"></span></p>
+         <p>Wind Speed: <span id="windspeed"></span>mph</p>
+       </section>
+      </div>
+
+     
+     
+    <section class="mainforecast">
+      <h3 id="fivedayheader">5 Day Forecast</h3> 
+       <div class="forecast"><table class="">
+          <tr class="daysofweek">
+            <th>
+              <span id="dayPlusOne"></span>
+            </th>
+            <th>
+              <span id="dayPlusTwo"></span>
+            </th>
+            <th>
+              <span id="dayPlusThree"></span>
+            </th>
+            <th>
+              <span id="dayPlusFour"></span>
+            </th>
+            <th>
+              <span id="dayPlusFive"></span>
+            </th>
+          </tr>
+           <!-- <tr class="temperature">
+           <th class="temp">
+              <img src="images/forecastimage.svg" alt="sun">
+              72&#176;
+              
+            </th>
+            <th class="temp" id="day2">
+              <img src="images/forecastimage.svg" alt="sun">
+              72&#176;
+            </th>
+            <th class="temp">
+              <img src="images/forecastimage.svg" alt="sun">
+              72&#176;
+            </th>
+            
+            <th class="temp">
+              <img src="images/forecastimage.svg" alt="sun">
+              72&#176;
+            </th>
+            <th >
+              <img src="images/forecastimage.svg" alt="sun">
+              72&#176;
+            </th> 
+          </tr>-->
+        </table></div>
+      </section>
+      
+      <section class="upcomingevent"></section>
+     
+      <div class="content">
+      <img id="firemen" src="images/fireman2.jpg" alt="firemen fighting fire">
+      <h3 id="article">Earthquakes, Firemen and Shock Waves. Oh my!</h3>
+      <h5>Article by: Bethany Panter</h5>
+      <p>
+        This week in Preston we were all shocked, no pun intended by the earthquake we had Saturday night. Preston is not known for having earthquakes and so none of us, my self included were caught off guard. The earthquake was a 7.2 on the Richter scale which is no small quake. There was damage to several homes, and many had bodily injury. However, there was no loss of life thanks to our amazing fire department Preston F.D. These brave men worked around the clock to put out some of the fires that sparked as a result of broken gas lines. They were also able to rescue members of our community caught in upper floors with no way to descend due to broken staircases and shifted houses. These firemen truly, “prest, on” in the face of adversity and held up our town heritage of never giving up even when things seem insurmountable.
+      </p>
+    </div>
+    <section id="contact">
+      <img class="googlemap" src="images/googlemap.png" alt="map">
+      <div><h4>Rays of Sun</h4>
+      <p>
+        <i class="material-icons">&#xe55f;</i> 2021 West Dr.<br>
+        &#9993; Hometown, WA 92472<br><br>
+      &#9742; 987-654-3210<br>
+      raysofsun.com
+      </p>
+      
+      <img id="mediapic" src="images/media.png" alt="socialmedia"></div>
+      
+    </section>
+
+  </main>
+  <footer>
+    &copy;<span id="currentyear"></span> 
+    | Bethany Panter |<a id="portal-page" href="https://panterbeth.github.io/"> Washington</a> |<a id="openweather" href="https://openweathermap.org/"> Open Weather |</a>
+      <a id="footerlink" href="https://www.byui.edu/online">BYUI Online Learning</a> <br>
+      <span id="currentdate"></span>
+
+    </footer>
+    <script src="js/dateyearcopy.js"></script>
+    <script src="js/toggle.js"></script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+   <script>WebFont.load({
+    google: {
+      families: [
+      'Overpass Mono',
+      'Fraunces'
+      ]
+    }
+  });</script>
+  <script src="js/windchill.js"></script>
+  <script src="js/weatherapipres.js"></script>
+  <script src="js/preston.js"></script>
+    
+</body>
+</html>
