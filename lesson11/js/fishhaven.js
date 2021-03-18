@@ -6,10 +6,17 @@ fetch(requestURL)
 .then(function (jsonObject){
     console.table(jsonObject);
     const towns = jsonObject["towns"];
-    towns.shift();
-    towns.splice(1, 3);
-    let events=towns[0].events;
-    let fish=document.createElement("div");
+   // towns.shift();
+    //towns.splice(1, 3);
+
+    //let events=towns[1].events;
+    for(let i=0; i<towns.length; i++){
+        if(towns[i].name=="Fish Haven"){
+        let events=towns[i].events;
+        let h3=document.createElement("h3");
+        h3.textContent="Upcoming Events";
+        document.querySelector("section.upcomingevent").appendChild(h3);
+    let div=document.createElement("div");
     for(let i=0; i<events.length; i++){
 
     
@@ -17,11 +24,11 @@ fetch(requestURL)
 
 let p5=document.createElement("p");
 p5.textContent=events[i];
-fish.appendChild(p5);
-document.querySelector("section.fishy").appendChild(fish);}
+div.appendChild(p5);
+document.querySelector("section.upcomingevent").appendChild(div);}}}
 
-})
-;
+});
+
 
 const apiURL="https://api.openweathermap.org/data/2.5/weather?lat=42.037&lon=-111.396&appid=d211895bcb1310c1dd13ddc706b3bb98"
 //const apiURL="https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=d211895bcb1310c1dd13ddc706b3bb98"
