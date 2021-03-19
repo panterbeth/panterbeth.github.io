@@ -23,10 +23,10 @@ fetch(forecastURL)
 .then(function (jsonObject){
     console.table(jsonObject);
     const list = jsonObject["list"];
-    for(let i=0; i<list.length; i++){
+    for(let i=0; i<(list.length-16); i++){
       
         let extract=list[i].dt_txt.substr(11);
-        if(extract=="18:00:00"){
+        if(extract=="12:00:00"){
             
         
         let card= document.createElement("th");
@@ -44,9 +44,9 @@ let image=document.createElement("img");
         td.textContent=((list[i].main.temp-273.15)*(9/5)+32).toFixed(0)+ "ºF";
        
     card.appendChild(td);
-document.querySelector("table").appendChild(card); 
+document.querySelector("table.threeday").appendChild(card); 
 
-document.querySelector("table").appendChild(card);
+document.querySelector("table.threeday").appendChild(card);
 
 }
 
