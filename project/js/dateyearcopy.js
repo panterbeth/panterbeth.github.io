@@ -25,12 +25,17 @@ let months=[
     "November",
     "December"
 ];
-let apple= new Date();
+/*let apple= new Date();
 let dayName= dayNames[apple.getDay()];
 let monthName= months[apple.getMonth()];
 let fullYear= apple.getFullYear();
 let fullDate= dayName + ", " + apple.getDate() +", " + monthName + ", " +fullYear;
-document.getElementById("currentdate").textContent=fullDate;
+document.getElementById("currentdate").textContent=fullDate;*/
+let d= new Date();
+let year2= d.getFullYear();
+document.getElementById("currentyear").textContent= year2;
+var lastUpdated= document.lastModified;
+document.getElementById("currentdate2").textContent= lastUpdated;
 
 /*var now = new Date();
     var dayOfWeek = now.getDay();
