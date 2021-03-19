@@ -3,12 +3,12 @@
     nav ul li a {
         padding: .6rem 1rem;
     }
-    nav {/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#007dbc+0,72a5bf+100 */
-        background: #007dbc; /* Old browsers */
-        background: -moz-linear-gradient(top,  #007dbc 0%, #72a5bf 100%); /* FF3.6-15 */
-        background: -webkit-linear-gradient(top,  #007dbc 0%,#72a5bf 100%); /* Chrome10-25,Safari5.1-6 */
-        background: linear-gradient(to bottom,  #007dbc 0%,#72a5bf 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007dbc', endColorstr='#72a5bf',GradientType=0 ); /* IE6-9 */
+    nav {
+        background: #007dbc; 
+        background: -moz-linear-gradient(top,  #007dbc 0%, #72a5bf 100%); 
+        background: -webkit-linear-gradient(top,  #007dbc 0%,#72a5bf 100%); 
+        background: linear-gradient(to bottom,  #007dbc 0%,#72a5bf 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007dbc', endColorstr='#72a5bf',GradientType=0 ); 
         
         }
     nav button {display: none;}
@@ -58,8 +58,8 @@
         
     } 
     .weather {
-        display:inline;
-        position: absolute;
+        display:block;
+        /*position: absolute;*/
         top: 50px;
         left: 50px;
         background: radial-gradient(#eee, #CAE8F7);

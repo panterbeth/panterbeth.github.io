@@ -32,14 +32,14 @@ let fullYear= apple.getFullYear();
 let fullDate= dayName + ", " + apple.getDate() +", " + monthName + ", " +fullYear;
 document.getElementById("currentdate").textContent=fullDate;
 
-var now = new Date();
+/*var now = new Date();
     var dayOfWeek = now.getDay();
     let response;
     if(dayOfWeek==5)
         {response="Saturday= Preston Pancakes in the Park!\n9:00a.m. Saturday at the city park pavilion.";
         document.getElementById("pancakes").innerHTML = response;}
         else{response="";
-    document.getElementById("pancakes").style.display="none";}
+    document.getElementById("pancakes").style.display="none";}*/
 
 
 //apple.setDate(new Date().getDate()+1);
@@ -56,13 +56,13 @@ nextDay.setDate(day.getDate()+3);
 var plusThree=dayNames[nextDay.getDay()];
 document.getElementById("dayPlusThree").innerHTML=plusThree;
 
-nextDay.setDate(day.getDate()+4);
+/*nextDay.setDate(day.getDate()+4);
 var plusFour=dayNames[nextDay.getDay()];
 document.getElementById("dayPlusFour").innerHTML=plusFour;
 
 nextDay.setDate(day.getDate()+5);
 var plusFive=dayNames[nextDay.getDay()];
-document.getElementById("dayPlusFive").innerHTML=plusFive;
+document.getElementById("dayPlusFive").innerHTML=plusFive;*/
 
 /*function windChill(tempF, speed){
     let wc= 35.74+(0.6215*tempF)-35.75*(speed**0.16)+(0.4275*tempF*(speed**0.16));
