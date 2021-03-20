@@ -382,6 +382,31 @@ form label.top input:required:valid{
  }
  .key{
      border: #548C2F solid 6px;
-     padding: 1rem;
+     padding: 1.5rem;
      margin:2.5rem;
+     text-align: center;
+ }
+ .key h4{
+     margin-bottom:.1rem;
+     font-size: 20px;
+     
+ }
+ .key div{
+     margin:.2rem;
+     padding:.2rem;
+ }
+ .key p{
+     padding-bottom:1rem;
+ }
+ .nonprof{
+background-color: rgba(170, 85, 0, .5);
+ }
+ .bronze{
+background-color:rgba(170, 85, 0, .7);
+ }
+ .silver{
+background-color: rgba(147, 144, 151, .7);
+ }
+ .gold{
+background-color:rgba(219, 180, 44, .7);
  }
