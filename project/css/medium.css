@@ -53,6 +53,13 @@
         font-size: 40px;
     }
     h3{font-size:25px;}
+
+    .weather-forecast{
+        display:grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        margin: 2rem;
+    }
     }
     
 

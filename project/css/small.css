@@ -205,14 +205,14 @@ input{
 .weather
 {
     display:block;
-    
 	border: 5px solid  #104911;
 	padding: 1.5rem;
 	box-shadow: 0 0 20px #111;
-    opacity: .8;
+   opacity: .8;
     margin:auto;
     text-align: center;
     width:max-content;
+   justify-self:center;
 }
 
 
@@ -365,4 +365,12 @@ header{
     display:grid;
     grid-template-rows: 1fr 1fr;
  
+}
+.media{
+    display:inline-flex;
+    
+}
+.media img{
+    max-width: 60px;
+    
 }

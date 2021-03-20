@@ -81,6 +81,7 @@ form label.sbs {
 .weather-forecast{
     display:grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
     margin: 2rem;
 }
 header h1{
