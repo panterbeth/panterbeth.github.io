@@ -57,13 +57,13 @@ nav ul li a:hover {
 }
 
 nav ul.hide {display:none;}
-/*----- Clearfix: Force an Element not to collapse -----*/
+
 .clearfix:after {
     content: "";
     display: table;
     clear: both;
   }
-  .content{
+ /* .content{
       display:block;
       color: #2B2727;
       background-color:rgba(202, 232, 247, 0.3);
@@ -71,7 +71,7 @@ nav ul.hide {display:none;}
       border: 1px solid black;
       margin: 10px;
       
-  }
+  }*/
   main footer { 
       
       margin: auto;
@@ -102,7 +102,8 @@ h1, h2, h3, h4, h5, h6{
 }
 
 header{
-    background-color:rgba(154, 209, 117, 0.5);
+    /*background-color:#FFD95C;*/
+   background-color:rgba(168, 213, 226, 0.3);
     padding-bottom: 2rem;
 }
 header h1{
@@ -144,11 +145,11 @@ h2{
 h3{font-size:20px;}
 
 
-#icon-map{width:80px;
+/*#icon-map{width:80px;
 max-width: 50px;
 
 
-}
+}*/
 #mediapic{
     max-width: 150px;
 }
@@ -162,34 +163,33 @@ max-width: 50px;
         border: 1px solid black;
         margin: 10px;}
 
-.googlemap{
-    display:none;
-}
+
 .daysofweek{
     background-color:#9AD175;
     color:black;
 }
-#fivedayheader{
+/*#threedayheader{
 
     text-align: center;
     
 
-}
+}*/
 
 .mainforecast{
     display:none;
 }
 
-#map-icon{
+/*#map-icon{
     color:black;
     
-}
+}*/
+/*
 #button{
     background-color:#104911;
 }
 input{
     width:2rem;
-}
+}*/
 
 
 .myphoto{
@@ -218,7 +218,7 @@ input{
 
 
 
- form fieldset {
+/* form fieldset {
     margin: 2rem 1rem;
     border: 1px solid #104911;
     border-radius: 10px;
@@ -289,7 +289,7 @@ form label.top input:required:valid{
 
  #textbox{
      display:block;
- }
+ }*/
 
 
 table, th{
@@ -334,7 +334,9 @@ th { width:20%;}
      
      
      display:block;
-     background: radial-gradient(#eee, #9AD175);
+     /*background: radial-gradient(#eee, #9AD175);*/
+     background: radial-gradient(white,rgba(255, 203, 31, 0.8));
+     /*background: lineal-gradient(white, #FFCB1F);*/
      border: 1px solid #000;
      padding: 1.5rem;
      box-shadow: 0 0 15px #111;

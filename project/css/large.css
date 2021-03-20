@@ -32,19 +32,19 @@
     
 
 
-.content img{
+/*.content img{
     max-width:400px;
-    float: right;}
+    float: right;}*/
 
 
 
 
 
  
- aside{
+ /*aside{
         font-size: 22px;
        
-    }
+    }*/
    
     /*.weather {
         display:block;
@@ -61,9 +61,9 @@
   
 
 
-form label.sbs {
+/*form label.sbs {
     padding: .4rem 0;
-}
+}*/
 
 .mainblocks img{
     width:75%;
