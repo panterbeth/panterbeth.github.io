@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Storm Center Page</title>
+  <title>Lesson 8 Storm Center Page</title>
   <meta name="description" content="Preston Home Page Assignment WDD 230 BYU-I">
   <link href="https://fonts.googleapis.com/css2?family=Fraunces&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -33,7 +33,7 @@
         <li><a href="index.html">Home</a></li>
         <li ><a href="preston.html">Preston</a></li>
         <li><a href="sodasprings.html">Soda Springs</a></li>
-        <li><a href="fishhaven.html">Fish Haven</a></li>      
+        <li><a href="fishhaven.html">Fish Haven</a></li>   
         <li class="active"><a href="#">Storm Center</a></li>
         <li ><a href="gallery.html">Gallery</a></li>
         
@@ -48,10 +48,10 @@
             <form method="get" action="thanks.html">
                 <fieldset>
                     <legend>Personal Information</legend>
-                    <label class="top">Name*<input type="text" name="name"  pattern="[A-Za-z].{4,}" required></label>
+                    <label class="top">Name*<input type="text" name="name"  pattern="[A-Za-z]{5,}" required></label>
                     
                     <label class="top">Phone*<input type="tel" name="phone" placeholder="1235551234" required></label>
-                    <label for="zip" class="top">Zip Code:*<input id="zip"  type="text" pattern="(\d{5}([\-]\d{4})?)" name="zip" required></label>
+                    <label for="zip" class="top">Zip Code:*<input id="zip" type="number" name="zip" required></label>
                     <label class="top">Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
                     
                 </fieldset>
@@ -59,14 +59,15 @@
                     <legend>Storm Details</legend>
                     <label class="top">Storm Date <input type="date" name="stormDate"></label>
                      <label class="top">Storm Region
-                         <select name="region">
-                            <option value="">Select Region &#9662;</option>
-                             <option value="preston">Preston</option>
-                             <option value="soda-springs">Soda Springs</option>
-                             <option value="fish-haven">Fish Haven</option>
-                             
-                         </select>
-                     </label>
+                         <input name="region" list="regionlist"></label>
+                            
+                            <datalist id="regionlist">
+                            <option value="Preston"></option>
+                             <option value="Soda Springs"></option>
+                             <option value="Fish Haven"></option>
+                            </datalist>
+                         
+                    
                      <label class="top">Storm Type<input list="stormlist" name="stormType"></label>
                      <datalist id="stormlist">
                        <option value="Flash Flood"></option>
@@ -101,7 +102,7 @@
                 <fieldset>
                     <legend>Additional Comments or Information</legend>
                     
-                     <label name="comments" class="top">Please enter any additional details below.<textarea id="textbox" rows="5" cols="40">
+                     <label class="top">Please enter any additional details below.<textarea name="comments" id="textbox" rows="5" cols="40">
                       </textarea>
                      </label>
                     
@@ -123,7 +124,6 @@
     </footer>
     <script src="js/gallery.js"></script>
     <script src="js/toggle.js"></script>
-    <script src="js/rating.js"></script>
     
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
    <script>WebFont.load({
