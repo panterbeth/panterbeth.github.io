@@ -355,3 +355,9 @@ th { width:20%;}
  .mainblocks h3{
      margin-bottom:.5rem
  }
+ .header-grid{
+     display:grid;
+     display:block;
+     grid-template-rows: 1fr 1fr;
+     
+ }
