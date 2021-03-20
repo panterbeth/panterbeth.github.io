@@ -65,6 +65,22 @@ form label.sbs {
     padding: .4rem 0;
 }
 
-
-
+.mainblocks img{
+    width:75%;
+      
+    display:block; margin-left:auto; margin-right:auto; box-sizing:border-box; width:100%;
+  padding:1rem;
+}
+.mainblocks{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.mainblocks div{
+    font-size: 16px;
+}
+.weather-forecast{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 2rem;
+}
 }

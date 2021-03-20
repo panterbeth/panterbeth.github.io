@@ -31,7 +31,8 @@ nav button{
 }
 nav{
     background-color: #104911;
-    text-align:center;
+   text-align:center;
+   
    
 }
 
@@ -317,6 +318,33 @@ table { width:75%;
 th { width:20%;}
 
 
-
-
-
+.mainblocks div{
+    padding:1rem;
+    border: 2px solid #104911;
+    color:black;
+    margin:1rem;
+    
+    text-align: center;
+   font-size: 14px;
+}
+.mainblocks img{
+    display:none;
+}
+ .benefits{
+     
+     
+     display:block;
+     background: radial-gradient(#eee, #9AD175);
+     border: 1px solid #000;
+     padding: 1.5rem;
+     box-shadow: 0 0 30px #111;
+     opacity: .8;
+     margin:1rem;
+     text-align: center;
+    
+ }
+ .weather-forecast{
+     display:grid;
+     grid-template-columns: 25% 75%;
+     margin: 2rem;
+ }
