@@ -31,15 +31,7 @@
     }
     
 
-.forecast{
-    display:list-item;
-    display:block;
-    color: #fff;
-    background-color: white;
-    padding: 10px;
-    margin: 10px;
-    
-}
+
 .content img{
     max-width:400px;
     float: right;}
@@ -53,22 +45,19 @@
         font-size: 22px;
        
     }
-    .mainforecast{
-        display:inline;
-        
-    } 
-    .weather {
+   
+    /*.weather {
         display:block;
-        /*position: absolute;*/
+        position: absolute;
         top: 50px;
         left: 50px;
-        background: radial-gradient(#eee, #548C2F);
+        
         border: 1px solid #000;
         padding: 1.5rem;
         box-shadow: 0 0 30px #111;
         opacity: .8;
         
-    }
+    }*/
   
 
 

@@ -204,8 +204,8 @@ input{
 .weather
 {
     display:block;
-    background: radial-gradient(#eee, #9AD175);
-	border: 1px solid #000;
+    
+	border: 5px solid  #104911;
 	padding: 1.5rem;
 	box-shadow: 0 0 30px #111;
     opacity: .8;
@@ -213,13 +213,7 @@ input{
     text-align: center;
     width:max-content;
 }
-article img[data-src]{
-    filter: blur(0.2em);
-}
-article img{
-    filter:blur(0em);
-    transition: filter 0.5s;
-}
+
 
 
 

@@ -1,19 +1,21 @@
 @media only screen and (min-width: 32.5rem) {
     header img{ width:100px;}
-    .gallery-home {
-        display:grid;
-        grid-template-columns: 1fr 1fr;
+   
+    .mainforecast{
+        display:inline;
+        
+    } 
+    .forecast{
+        display:list-item;
+        display:block;
+        color: #fff;
+        background-color: white;
+        padding: 10px;
+        margin: 10px;
+        
     }
-    
-/* {padding: .35rem;}
-.towndata h2 {text-align:center;
-display:block;}
-.towndata p {text-align:center;
-display:block;}
-.towndata h3{text-align: center;
-display:inline-block;}*/
 
-.towndata {
+/*.towndata {
 	max-width: 600px;
   margin: auto;
 	
@@ -39,38 +41,14 @@ display:inline-block;}*/
     
 }
 .towndata img{
-    width:55%;
+    width:55%;*/
     
     
 }
 
-.content img{
-    max-width:500px;}
 
-/*.towndata{
-    max-width:800px;
-    margin: .5rem auto;
 
-}
-.towndata div{
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows:  50px 50px 50px 50px 50px;
-    
-}
-.towndata div:nth-child(odd) img{
-    grid-column: 2;
-    
-}
-.towndata div:nth-child(odd) h2{ grid-column: 1;}
-.towndata div:nth-child(odd) h5{ grid-column: 1;}
-.towndata div:nth-child(odd) p{ grid-column: 1;}
-.towndata div:nth-child(even) h2{ grid-column: 2;}
-.towndata div:nth-child(even) h5{ grid-column: 2;}
-.towndata div:nth-child(even) p{ grid-column: 2;}
-.towndata img{
-    grid-template-rows: 1/6;
-    
-}*/
 
-}
+
+
+
