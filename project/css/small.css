@@ -364,6 +364,5 @@ th { width:20%;}
 header{
     display:grid;
     grid-template-rows: 1fr 1fr;
-   margin-left:auto;
-   margin-right:auto;
+ 
 }
