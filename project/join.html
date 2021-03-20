@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Join Page</title>
+  <meta name="description" content="Join Page Final Project WDD 230 BYU-I">
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=ABeeZee:ital@1&family=Noto+Serif+SC&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link href="css/small.css" rel="stylesheet">
+  <link href="css/medium.css" rel="stylesheet">
+  <link href="css/large.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body >
+  <aside id="weather-alert" style="display:block;">
+    
+  </aside>
+  <header>  
+    
+    <section class="founded">
+   <h5>Lake Stevens</h5>
+   <img id="logo" alt="outline of lake stevens" src="images/outlinelakeweb.png">
+    <h5>Founded 1889</h5>
+    </section>
+    <section class="headings">
+        <h1>Chamber of Commerce</h1>
+       
+    </section>
+  
+  </header>
+
+  <nav class="clearfix">
+    <button onclick="toggleMenu()">&#9776;</button>
+    <ul id="primaryNav" class="hide">
+       
+        
+        <li ><a href="index.html">Home</a></li>
+        <li><a href="thecity.html">Lake Stevens City</a></li>
+        <li class="active"><a href="#">Join The Chamber</a></li>   
+        <li><a href="directory.html">Directory</a></li>
+        <li ><a href="contact.html">Contact</a></li>
+        
+
+    </ul>
+</nav>
+  
+  <main>
+    
+    <h2 id="townname">Join the Chamber</h2>
+    <section class="join-grid">
+        <section>
+            <form method="get" action="thanks.html">
+                <fieldset>
+                    <legend>Applicant Information</legend>
+                    <label class="top">First Name*<input type="text" name="fname" required></label>
+                    <label class="top">Last Name*<input type="text" name="lname" required></label>
+                    <label class="top">Title<input type="text" name="title"></label>
+                    <label class="top">Cell Phone<input type="tel" name="phone" placeholder="1235551234"></label>
+                    <label class="top">Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                    
+                </fieldset>
+                <fieldset>
+                    <legend>Business Information</legend>
+                    <label class="top">Business Name*<input type="text" name="fname" required></label>
+                    
+                    <label class="top">Business Address:<input type="text" name="address" placeholder="Street"></label>
+                    <label class="top"><input type="text" name="inputCity" placeholder="City"></label>
+                      <label  class="top" > <input type="text" name="state" placeholder="State"></label>
+  
+  
+  
+                    <label for="zip" class="top">Zip Code:<input id="zip"  type="text" pattern="(\d{5}([\-]\d{4})?)" name="zip"></label>
+                    <label class="top">Business Website<input type="url" name="url" placeholder="http://"></label>
+                    <label class="top">Business Description<textarea name="comments" id="textbox" rows="5" cols="40">
+                    </textarea>
+                   </label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Membership Level</legend>
+                    <div>Annual Fees</div>
+                    <label class="sbs"><input type="radio" name="audience" value="nonprofit">Non-Profit ($100)</label>
+                    <label class="sbs"><input type="radio" name="audience" value="bronze">Bronze ($200)</label>
+                    <label class="sbs"><input type="radio" name="audience" value="silver">Silver ($400)</label>
+                    <label class="sbs"><input type="radio" name="audience" value="gold">Gold ($1000)</label>
+                    
+                </fieldset>
+    
+                
+                <input type="submit" value="Join Chamber" class="submitBtn">
+            </form>
+        </section>
+        <section class="level-benefit">
+            <section class="benefit-join">
+                <h3>Benefits of Joining the Chamber</h3>
+                <p>Visibility- Grow Exposure with listings on the Chamber Website and sponsoring Chamber events.
+                </p>
+                <p>Networking-Access outreach and educational events each year.
+               </p>
+                <p>Credibility-When you are a member it creates a positive perception of your business. 
+                </p>
+                <p>Growth-Training and educational opportunities to grow your business.
+
+                </p>
+                <P>Voice-Gain a say in what happens in our business community.</P>
+            </section>
+              <section class="key">
+                  <h3>Benefits of Membership Levels</h3>
+                  <div class="nonprof"><h5>Non-Profit</h5>
+                  <p>Directory Listings</p></div>
+                  <div class="bronze"><h5>Bronze</h5>
+                  <p>Non-Profit benefits plus business trainings.</p></div>
+                  <div class="silver"><h5>Silver</h5>
+                  <p>Bronze benefits plus social media posts.</p></div>
+                  <div class="gold">
+                      <h5>Gold</h5>
+                  <p>Silver benefits plus luncheon tickets and advertising on the chamber website.</p></div>
+              </section>
+              
+            
+            </section>
+    
+        </section>
+   
+   
+  
+   
+  <section id="contact">
+      
+      
+      <div><h4>Chamber of Commerce</h4>
+      <p>
+        <i class="material-icons">&#xe55f;</i>10108 Lundeen Park Way<br>
+        &#9993; Lake Stevens, WA 98258<br><br>
+      &#9742; 425-334-0433<br>
+      </p>
+      <div class="media">
+      <a href="https://twitter.com/?lang=en" target="_blank"><img id="twitter" src="images/twitterweb.png" alt="twitter"></a>
+      <a href="https://www.facebook.com/" target="_blank"><img id="facebook" src="images/facebookweb.png" alt="facebook"></a>
+    </div>
+    </div>
+    </section>
+
+  </main>
+  <footer>
+    <a id="home-project" href="https://panterbeth.github.io/project/home.html">Home</a>|&copy;<span id="currentyear"></span> 
+    Bethany Panter |<a id="openweather" href="https://openweathermap.org/"> Open Weather |</a>
+      <a id="footerlink" href="project/attribution.html">Attributions</a> <br>
+      Last Modified:<span id="currentdate2"></span>
+
+    </footer>
+    <script src="js/dateyearcopy.js"></script>
+    <script src="js/toggle.js"></script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+   <script>WebFont.load({
+    google: {
+      families: [
+      'Noto Serif SC',
+      'ABeeZee'
+      ]
+    }
+  });</script>
+  
+  
+  
+    
+</body>
+</html>

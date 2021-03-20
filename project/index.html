@@ -4,111 +4,181 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home Page</title>
-  <meta name="description" content="Home Page Assignment WDD 230 BYU-I">
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces&display=swap" rel="stylesheet">
+  <meta name="description" content="Home Page Final Project WDD 230 BYU-I">
+  
   <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=ABeeZee:ital@1&family=Noto+Serif+SC&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/normalize.css">
   <link href="css/small.css" rel="stylesheet">
   <link href="css/medium.css" rel="stylesheet">
   <link href="css/large.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
-<body>
-  <aside id="pancakes" style="display:block;">
+<body >
+  <aside id="weather-alert" style="display:block;">
     
   </aside>
-  <header>   
+  <header>  
     
-  <img id="logo" alt="sun and rain" src="images/sunandrain.gif">
-  <section class="headings">
-        <h1>Rays of Sun</h1>
-        <div>Your Place for Weather News</div>
-    </section>
+    <section class="founded">
+      <h5>Lake Stevens</h5>
+      <img id="logo" alt="outline of lake stevens" src="images/outlinelakeweb.png">
+       <h5>Founded 1889</h5>
+       </section>
+       <section class="headings">
+           <h1>Chamber of Commerce</h1>
+          
+       </section>
   </header>
+
   <nav class="clearfix">
-    <button onclick="toggleMenu()">&#9776; Menu</button>
+    <button onclick="toggleMenu()">&#9776;</button>
     <ul id="primaryNav" class="hide">
        
+        
         <li class="active"><a href="#">Home</a></li>
-        <li ><a href="preston.html">Preston</a></li>
-        <li><a href="sodasprings.html">Soda Springs</a></li>
-        <li><a href="fishhaven.html">Fish Haven</a></li>   
-        <li><a href="stormcenter.html">Storm Center</a></li>
-        <li ><a href="gallery.html">Gallery</a></li>
+        <li><a href="thecity.html">Lake Stevens City</a></li>
+        <li><a href="join.html">Join The Chamber</a></li>   
+        <li><a href="directory.html">Directory</a></li>
+        <li ><a href="contact.html">Contact</a></li>
         
 
     </ul>
 </nav>
   
-  <main class="home-main">
+  <main>
     
-    
+    <h2 id="townname"></h2>
     <div class="herodiv">
       <figure class="myphoto">
-        <img src="images/home-1200.jpg" alt="barn" sizes="50vw" 
-        srcset="images/home-500.jpg 500w,
-                images/home-800.jpg 800w,
-                images/home-1100.jpg 1100w">
+        <img src="images/banneroriginal1200.jpg" alt="lake stevens aerial" sizes="50vw" 
+        srcset="images/banneroriginal500.jpg 500w,
+                images/banneroriginal800.jpg 800w,
+                images/banneroriginal1100.jpg 1100w">
        
     </figure>
     </div>
-    <div class="home-thought">
-      
-      <h3 id="home-thought2">Kindness Korner</h3>
-      <p> 
-        Every week there are many kind hearted souls in our community that watch out for and provide kind acts of service. This space is reserved to honor them and their good deeds.
-        This week Natalie L. organized a group of friends to report to one another on kind things they had seen others do. She promised that she would bake fresh cookies to the winner of her very own kindness drawing.
-        Each friend enters their name once for each time they either do a kind thing or report on something they witness others doing for them or for others. Natalie is a great example that we can recognize those who are working to lift up others. Thanks Natalie for encouraging us to be better and look for the good.
-      </p>
-    </div>
-  
-    <section class="towndata">
-     
-      
-    </section>
-       
-    
-     
-    
-        
-    
-    <section id="contact">
-      <img class="googlemap" src="images/googlemap.png" alt="map">
-      <div><h4>Rays of Sun</h4>
+    <section class="mainblocks">
+    <div class="goals">
+      <img src="images/lakestevens.jpg" alt="lake shore">
+    <h3>Our Purpose and Goals:</h3>
       <p>
-        <i class="material-icons">&#xe55f;</i> 2021 West Dr.<br>
-        &#9993; Hometown, WA 92472<br><br>
-      &#9742; 987-654-3210<br>
-      raysofsun.com
+        To help businesses create strong networking channels and build a wonderful community together. 
       </p>
+    
+    </div>
+      <div class="companies">
+        <img src="images/threefingers.jpg" alt="three fingers mountains">
+        <h3>
+        Local Companies:
+        </h3>
+        <p>
+          All Smiles Dentistry: General Dentistry Services
+        </p>
+        <p>
+          Jay's Market: Your home town store!
+        </p>
+        <p>
+          Lia Lorraine Hair Salon LLC 
+        </p>
+        
+      </div>
+      <div>
+        <img src="images/wyattpark.jpg" alt="wyatt park">
+        <h3 class="events">Upcoming Events</h3>
+        
+          <p>
+            April 10 @ 12pm: Chamber Luncheon-Connect with Brett
+          </p>
+          <p>
+             April 17 @ 5pm: Networking After Hours
+          </p>
+          <p>
+            April 23 @ 8am: Morning Mingle
+          </p>
+          
+      </div>
+    </section>
+    <section class="benefits">
+      <p>There are many benefits of being a part of the Chamber of Commerce.
+        They include visibility, networking, credibility, growth of your business and voice to advocate for the business community.
+         <a href="join.html">Join The Chamber of Commerce today!</a>
+        
+      </p>
+    </section>
+   <div class="weather-forecast">
+    <section class="weather">
+      <h3>Today's Weather</h3>
+      <p>Currently: <span id="weather"></span> <span id="current"></span>&#176;F </p>
+      <p>High: <span id="high"></span>&#176;F</p>
+      <p>Wind Chill: <span id="windchill"></span></p>
+       <p>Humidity: <span id="humidity"></span></p>
+       <p>Wind Speed: <span id="windspeed"></span>mph</p>
+     </section>
+    
+
+   
+   
+  <section class="mainforecast">
+    <!--<h3 id="threedayheader">Next 3 Days</h3> -->
+     <div class="forecast"><table class="threeday">
+        <tr class="daysofweek">
+          <th>
+            <span id="dayPlusOne"></span>
+          </th>
+          <th>
+            <span id="dayPlusTwo"></span>
+          </th>
+          <th>
+            <span id="dayPlusThree"></span>
+          </th>
+          
+        </tr>
+         
+      </table></div>
+    </section>
+  </div>
+   
+  <section id="contact">
       
-      <img id="mediapic" src="images/media.png" alt="socialmedia"></div>
       
+      <div><h4>Chamber of Commerce</h4>
+      <p>
+        <i class="material-icons">&#xe55f;</i>10108 Lundeen Park Way<br>
+        &#9993; Lake Stevens, WA 98258<br><br>
+      &#9742; 425-334-0433<br>
+      </p>
+      <div class="media">
+      <a href="https://twitter.com/?lang=en" target="_blank"><img id="twitter" src="images/twitterweb.png" alt="twitter"></a>
+      <a href="https://www.facebook.com/" target="_blank"><img id="facebook" src="images/facebookweb.png" alt="facebook"></a>
+    </div>
+    </div>
     </section>
 
   </main>
   <footer>
-    &copy;<span id="currentyear"></span> 
-    | Bethany Panter |<a id="portal-page" href="https://panterbeth.github.io/"> Washington</a> |
-      <a id="footerlink" href="https://www.byui.edu/online">BYUI Online Learning</a> <br>
-      <span id="currentdate"></span>
+    <a id="home-project" href="https://panterbeth.github.io/project/home.html">Home</a>|&copy;<span id="currentyear"></span> 
+    Bethany Panter |<a id="openweather" href="https://openweathermap.org/"> Open Weather |</a>
+      <a id="footerlink" href="project/attribution.html">Attributions</a> <br>
+      Last Modified:<span id="currentdate2"></span>
 
     </footer>
-    <script src="js/gallery.js"></script>
+    <script src="js/dateyearcopy.js"></script>
     <script src="js/toggle.js"></script>
     
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
    <script>WebFont.load({
     google: {
       families: [
-      'Overpass Mono',
-      'Fraunces'
+      'Noto Serif SC',
+      'ABeeZee'
       ]
     }
   });</script>
-  
-  <script src="js/towndata.js"></script>
+  <script src="js/windchill.js"></script>
+  <script src="js/weatherapiproject.js"></script>
   
     
 </body>

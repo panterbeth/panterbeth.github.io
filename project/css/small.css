@@ -218,78 +218,7 @@ input{
 
 
 
-/* form fieldset {
-    margin: 2rem 1rem;
-    border: 1px solid #104911;
-    border-radius: 10px;
-    padding: .5rem;
-}
 
-form legend{
-    color: black;
-    margin: 0 1rem;
-    padding: 0 .5rem;
-
-}
-
-form label.top, form div{
-    display: block;
-    padding-top: 1rem;
-    color: black;
-    font-size: .8rem;
-
-}
-
-form label.top input, form label.top select{
-    -webkit-appearance: none;
-    display:block;
-    font-size: 1rem;
-    border: solid 1px #999;
-    border-radius: 4px;
-    padding: .75rem 0;
-    color: #555;
-    width: 100%;
-    max-width: 20rem;
-    background-color: rgba(202, 232, 247, 0.3);
-}
-
-form label.sbs{
-    display: block;
-    padding: .75rem 0;
-    color: #555;
-}
-
-form input.submitBtn{
-    border: none;
-    background-color:#9AD175;
-    color: black;
-    border-radius: 1rem;
-    padding: .75rem 1.5rem;
-    margin: 0 0 2rem 1rem;
-    width: 96%;
-    max-width: 20rem;
-}
-
-form label.top input:required{
-    border-left: red solid 6px;
-}
-
-form label.top input:required:valid{
-    border-left: green solid 6px;
-}
- #rating{
-     padding:0;
- }
-
- #stormheadline{
-     text-align: left;
-     margin-bottom: -2.5rem;
-     margin-left: 1rem;
- }
-
- #textbox{
-     display:block;
- }*/
 
 
 table, th{
@@ -330,7 +259,7 @@ th { width:20%;}
 .mainblocks img{
     display:none;
 }
- .benefits{
+ .benefits, .benefit-join{
      
      
      display:block;
@@ -376,3 +305,83 @@ header{
     max-width: 60px;
     
 }
+
+form fieldset {
+    margin: 2rem 1rem;
+    border: 3px solid #104911;
+    border-radius: 10px;
+    padding: 1.5rem;
+    
+}
+form{
+    max-width: max-content;
+   
+}
+
+form legend{
+    color: black;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+
+}
+
+form label.top, form div{
+    display: block;
+    padding-top: 1rem;
+    color: black;
+    font-size: .8rem;
+
+}
+
+form label.top input, form label.top select{
+    -webkit-appearance: none;
+    display:block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem 0;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(154, 209, 117, 0.3);
+}
+
+form label.sbs{
+    display: block;
+    padding: .75rem 0;
+    color: #555;
+}
+
+form input.submitBtn{
+    border: none;
+    background-color:#9AD175;
+    color: black;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 1rem;
+    width: 96%;
+    max-width: 20rem;
+}
+
+form label.top input:required{
+    border-left:#F9A620 solid 6px;
+}
+
+form label.top input:required:valid{
+    border-left: #548C2F solid 6px;
+}
+
+
+
+ #textbox{
+     display:block;
+ }
+ .join-grid{
+     display:grid;
+     grid-template-columns: 1fr;
+ }
+ .key{
+     border: #548C2F solid 6px;
+     padding: 1rem;
+     margin:2.5rem;
+ }

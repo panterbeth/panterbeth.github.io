@@ -104,6 +104,12 @@ header{
    
    
 }
+.join-grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
 
-
+.benefit-join{
+margin:2.5rem;
+}
 }
