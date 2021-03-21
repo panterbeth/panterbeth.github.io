@@ -94,6 +94,13 @@
 
         
     }
+    .contact-grid{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .google-map{
+        align-self:center;
+    }
     /*#gridview{
         margin-left:800px;
         margin-top:-90px;

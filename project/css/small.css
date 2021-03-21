@@ -475,9 +475,15 @@ padding:1rem;
 .org-contact, .org-info{margin: 2rem 1rem;
     border: 3px solid #104911;
     border-radius: 10px;
-    padding: 1.5rem;}
+    padding: 1.5rem;
+    
+}
 
     .org-contact h4, .org-info h4{
         margin-bottom:.1rem;
         margin-top: 2rem;
+        text-align: left;
+    }
+    .org-contact p, .org-info p,.org-contact h3, .org-info h3{
+        text-align: left;
     }
