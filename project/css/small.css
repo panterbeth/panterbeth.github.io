@@ -266,13 +266,21 @@ th { width:20%;}
      /*background: radial-gradient(#eee, #9AD175);*/
      background: radial-gradient(white,rgba(255, 203, 31, 0.8));
      /*background: lineal-gradient(white, #FFCB1F);*/
-     border: 1px solid #000;
+     border: 2px solid #104911;
      padding: 1.5rem;
      box-shadow: 0 0 15px #111;
      opacity: .9;
      margin:1rem;
      text-align: center;
     
+ }
+.benefit-join h4{
+    margin-bottom:-.1rem;
+    text-align: left;
+}
+ .benefit-join p{
+     text-align: left;
+     padding:.1rem;
  }
  .weather-forecast{
      display:grid;
@@ -381,7 +389,7 @@ form label.top input:required:valid{
      grid-template-columns: 1fr;
  }
  .key{
-     border: #548C2F solid 6px;
+     border: #548C2F solid 4px;
      padding: 1.5rem;
      margin:2.5rem;
      text-align: center;
