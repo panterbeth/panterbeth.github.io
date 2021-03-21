@@ -16,7 +16,7 @@
         "zip": "98258",
         "phone": "425-334-0441",
         "url": "https://bellproperties.net/",
-        "imageurl": ""
+        "imageurl": "https://panterbeth.github.io/project/images/bell.png"
       },
       {
         "name": "Lake Stevens Tax Service",
@@ -61,7 +61,7 @@
         "zip": "98258",
         "phone": "425-334-5034",
         "url": "https://contospizza.com/",
-        "imageurl": ""
+        "imageurl": "https://panterbeth.github.io/project/images/contos.png"
       },
       {
         "name": "Francisco's Kitchen & Cantina",
@@ -70,7 +70,7 @@
         "zip": "98258",
         "phone": "425-512-8587",
         "url": "https://www.franciscoskitchenandcantina.com/contact",
-        "imageurl": "images/franciscos.png"
+        "imageurl": "https://panterbeth.github.io/project/images/franciscos.png"
       },
       {
         "name": "Farris & Furlan LLC",
@@ -79,16 +79,16 @@
         "zip": "98258",
         "phone": "425-626-2207",
         "url": "https://www.farrisandfurlan.com/",
-        "imageurl": ""
+        "imageurl": "https://panterbeth.github.io/project/images/f&f.png"
       },
       {
-        "name": "Village Mini Storage",
+        "name": "Frontier Village Mini Storage",
         "streetaddress": "8911 Vernon Rd",
         "city": "Lake Stevens",
         "zip": "98258",
         "phone": "425-334-6204",
         "url": "https://www.frontiervillagestorage.com/",
-        "imageurl": ""
+        "imageurl": "https://panterbeth.github.io/project/images/frontierstorage.png"
       }
       
       
