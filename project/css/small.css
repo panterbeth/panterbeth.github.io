@@ -1,7 +1,7 @@
 body{
     
     font-family: 'Noto Serif SC', serif;
-    font-size: 16px;  
+    font-size: 15px;  
     box-sizing: border-box;
     
 }
@@ -471,3 +471,13 @@ padding:1rem;
     width:100%;
     position:absolute;
 }
+
+.org-contact, .org-info{margin: 2rem 1rem;
+    border: 3px solid #104911;
+    border-radius: 10px;
+    padding: 1.5rem;}
+
+    .org-contact h4, .org-info h4{
+        margin-bottom:.1rem;
+        margin-top: 2rem;
+    }
