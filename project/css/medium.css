@@ -65,6 +65,15 @@
     
         margin-top:5rem;
     }
+    
+    .cards{ 
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        margin:0;
+        
+       padding: .8rem;
+    
+    }
     }
     
 
