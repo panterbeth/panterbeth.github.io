@@ -116,6 +116,13 @@ margin:2.5rem;
     
     margin-top:7rem;
 }
+.cards{ 
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    margin:0;
+    border: black solid 5px;
+   padding: .8rem;
 
+}
 
 }
