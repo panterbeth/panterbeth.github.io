@@ -2,7 +2,7 @@ let day= new Date();
 let year= day.getFullYear();
 document.getElementById("currentyear").textContent= year;
 
-let dayNames=[
+/*let dayNames=[
     "Sunday", 
     "Monday", 
     "Tuesday", 
@@ -24,7 +24,7 @@ let months=[
     "October",
     "November",
     "December"
-];
+];*/
 /*let apple= new Date();
 let dayName= dayNames[apple.getDay()];
 let monthName= months[apple.getMonth()];
@@ -48,7 +48,7 @@ document.getElementById("currentdate2").textContent= lastUpdated;
 
 
 //apple.setDate(new Date().getDate()+1);
-var nextDay= new Date();
+/*var nextDay= new Date();
 nextDay.setDate(day.getDate()+1);
 var plusOne=dayNames[nextDay.getDay()];
 document.getElementById("dayPlusOne").innerHTML=plusOne;
@@ -59,7 +59,7 @@ document.getElementById("dayPlusTwo").innerHTML=plusTwo;
 
 nextDay.setDate(day.getDate()+3);
 var plusThree=dayNames[nextDay.getDay()];
-document.getElementById("dayPlusThree").innerHTML=plusThree;
+document.getElementById("dayPlusThree").innerHTML=plusThree;*/
 
 /*nextDay.setDate(day.getDate()+4);
 var plusFour=dayNames[nextDay.getDay()];
