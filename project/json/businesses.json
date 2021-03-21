@@ -1,0 +1,98 @@
+{
+    "business": [
+      {
+        "name": "All Smiles Dentistry",
+        "streetaddress": "9623 32nd St SE B105",
+        "city": "Lake Stevens",
+        "zip": "98258",
+        "phone": "425-335-1111",
+        "url": "dentistrylakestevens.com",
+        "imageurl": "https://www.dentistrylakestevens.com/wp-content/uploads/2018/11/AllSmiles_logo.png"
+      },
+      {
+        "name": "Bell Properties, Inc.",
+        "streetaddress": "9429 N Davies Rd",
+        "city": "Lake Stevens",
+        "zip": "98258",
+        "phone": "425-334-0441",
+        "url": "https://bellproperties.net/",
+        "imageurl": ""
+      },
+      {
+        "name": "Lake Stevens Tax Service",
+        "streetaddress": "228 N Davies Rd, Lake Stevens",
+        "city": "Lake Stevens",
+        "zip": "98258",
+        "phone": "425-334-8138",
+        "url": "https://www.lstax.com/",
+        "imageurl": "https://www.lstax.com/wp-content/uploads/2018/07/lake-stevens-tax-service-main-logo-retina.png"
+      },
+      {
+        "name": "LJ's Bistro & Bar",
+        "streetaddress": "430 91st Ave NE #1",
+        "city": "Lake Stevens",
+        "zip": "98258",
+        "phone": "425-334-0604",
+        "url": "https://ljsbistroandbar.com/",
+        "imageurl": "https://static1.squarespace.com/static/5f6e3da5cc4319442086424c/t/5f7bf3d8183dc561daab4fea/1613663765025/?format=1500w"
+      },
+      {
+        "name": "Impact Association Management",
+        "streetaddress": "9506 4th St NE #201",
+        "city": "Lake Stevens",
+        "zip": "98258",
+        "phone": "425-949-4554",
+        "url": "http://impacthoa.com/main_page.html",
+        "imageurl": ""
+      },
+      {
+        "name": "CT Heating & Cooling Experts",
+        "streetaddress": "2319 131st Ave NE",
+        "city": "Lake Stevens",
+        "zip": "98258",
+        "phone": "425-329-7590",
+        "url": "https://ct-heating-cooling-experts-lake-stevens.business.site/",
+        "imageurl": ""
+      },
+      {
+        "name": "Contos Pizza Pasta Spirits",
+        "streetaddress": "521 WA-9, Lake Stevens",
+        "city": "Lake Stevens",
+        "zip": "98258",
+        "phone": "425-334-5034",
+        "url": "https://contospizza.com/",
+        "imageurl": ""
+      },
+      {
+        "name": "Francisco's Kitchen & Cantina",
+        "streetaddress": "1915 Hartford Drive",
+        "city": "Lake Stevens",
+        "zip": "98258",
+        "phone": "425-512-8587",
+        "url": "https://www.franciscoskitchenandcantina.com/contact",
+        "imageurl": ""
+      },
+      {
+        "name": "",
+        "streetaddress": "9623 32nd St SE B105",
+        "city": "Lake Stevens",
+        "zip": "98258",
+        "phone": "425-335-1111",
+        "url": "https://www.farrisandfurlan.com/",
+        "imageurl": "https://www.dentistrylakestevens.com/wp-content/uploads/2018/11/AllSmiles_logo.png"
+      },
+      {
+        "name": "",
+        "streetaddress": "9623 32nd St SE B105",
+        "city": "Lake Stevens",
+        "zip": "98258",
+        "phone": "425-335-1111",
+        "url": "https://www.frontiervillagestorage.com/",
+        "imageurl": "https://www.dentistrylakestevens.com/wp-content/uploads/2018/11/AllSmiles_logo.png"
+      }
+      
+      
+      
+      
+    ]
+  }
