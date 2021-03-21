@@ -421,6 +421,7 @@ background-color:rgba(219, 180, 44, .7);
 
  .cards{ 
     display:grid;
+    grid-template-columns: 1fr;
     
     border:black solid 3px;
    padding: .8rem;
@@ -456,9 +457,8 @@ padding:1rem;
 .cards img{
     display:block; margin-left:auto; margin-right:auto; box-sizing:border-box; max-width:150px;
     padding:1rem;
-   
-  
-    
-    
 
+}
+#buttons{
+    display:none;
 }

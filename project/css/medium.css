@@ -74,6 +74,35 @@
        padding: .8rem;
     
     }
+    #buttons{
+        display:flex;
+        float:right;
+        margin-top:-5rem;
+    }
+    .button-hide{
+        
+        background-color:black;
+        color:white;
+        padding:.5rem;
+        width:6rem;
+        box-sizing: border-box;
+        border-radius: 10px;
+        
+    }
+    /*#gridview{
+        margin-left:800px;
+        margin-top:-90px;
+    margin-bottom:1rem;
+    
+}
+        
+    #listview{
+            margin-left:450px;
+            margin-top:-90px;
+            margin-bottom:1rem;}*/
+    #directory{
+        margin-left:-20rem;
+    }
     }
     
 
