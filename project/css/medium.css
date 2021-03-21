@@ -69,24 +69,29 @@
     .cards{ 
         display:grid;
         grid-template-columns: 1fr 1fr;
-        margin:0;
+        margin:1rem;
         
-       padding: .8rem;
+       padding: 1rem;
     
     }
     #buttons{
         display:flex;
         float:right;
-        margin-top:-5rem;
+        margin-top:-3rem;
+        
     }
     .button-hide{
         
-        background-color:black;
-        color:white;
+        background-color:rgba(248, 159, 18, .6);
+        color:black;
         padding:.5rem;
-        width:6rem;
+        width:5rem;
         box-sizing: border-box;
         border-radius: 10px;
+        margin-left:.2rem;
+        margin-right:1rem;
+        font-size: 12px;
+
         
     }
     /*#gridview{
@@ -100,9 +105,7 @@
             margin-left:450px;
             margin-top:-90px;
             margin-bottom:1rem;}*/
-    #directory{
-        margin-left:-20rem;
-    }
+   
     }
     
 
