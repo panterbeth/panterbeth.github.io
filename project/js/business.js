@@ -15,7 +15,7 @@ document.querySelector("div.cards").appendChild(card);
      
 
         let p=document.createElement("p");
-        p.textContent=business[i].streetadress;
+        p.textContent=business[i].streetaddress;
     card.appendChild(p);
 document.querySelector("div.cards").appendChild(card);
 

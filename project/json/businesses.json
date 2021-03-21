@@ -70,25 +70,25 @@
         "zip": "98258",
         "phone": "425-512-8587",
         "url": "https://www.franciscoskitchenandcantina.com/contact",
+        "imageurl": "images/franciscos.png"
+      },
+      {
+        "name": "Farris & Furlan LLC",
+        "streetaddress": "PO Box 1191",
+        "city": "Lake Stevens",
+        "zip": "98258",
+        "phone": "425-626-2207",
+        "url": "https://www.farrisandfurlan.com/",
         "imageurl": ""
       },
       {
-        "name": "",
-        "streetaddress": "9623 32nd St SE B105",
+        "name": "Village Mini Storage",
+        "streetaddress": "8911 Vernon Rd",
         "city": "Lake Stevens",
         "zip": "98258",
-        "phone": "425-335-1111",
-        "url": "https://www.farrisandfurlan.com/",
-        "imageurl": "https://www.dentistrylakestevens.com/wp-content/uploads/2018/11/AllSmiles_logo.png"
-      },
-      {
-        "name": "",
-        "streetaddress": "9623 32nd St SE B105",
-        "city": "Lake Stevens",
-        "zip": "98258",
-        "phone": "425-335-1111",
+        "phone": "425-334-6204",
         "url": "https://www.frontiervillagestorage.com/",
-        "imageurl": "https://www.dentistrylakestevens.com/wp-content/uploads/2018/11/AllSmiles_logo.png"
+        "imageurl": ""
       }
       
       
