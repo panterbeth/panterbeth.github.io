@@ -3,7 +3,7 @@
       {
         "name": "All Smiles Dentistry",
         "streetaddress": "9623 32nd St SE B105",
-        "city": "Lake Stevens",
+        "city": "Lake Stevens, 98258",
         "zip": "98258",
         "phone": "425-335-1111",
         "url": "dentistrylakestevens.com",
@@ -12,28 +12,28 @@
       {
         "name": "Bell Properties, Inc.",
         "streetaddress": "9429 N Davies Rd",
-        "city": "Lake Stevens",
+        "city": "Lake Stevens, 98258",
         "zip": "98258",
         "phone": "425-334-0441",
-        "url": "bellproperties.net/",
+        "url": "bellproperties.net",
         "imageurl": "https://panterbeth.github.io/project/images/bell.png"
       },
       {
         "name": "Lake Stevens Tax Service",
         "streetaddress": "228 N Davies Rd, Lake Stevens",
-        "city": "Lake Stevens",
+        "city": "Lake Stevens, 98258",
         "zip": "98258",
         "phone": "425-334-8138",
-        "url": "lstax.com/",
+        "url": "lstax.com",
         "imageurl": "https://www.lstax.com/wp-content/uploads/2018/07/lake-stevens-tax-service-main-logo-retina.png"
       },
       {
         "name": "LJ's Bistro & Bar",
         "streetaddress": "430 91st Ave NE #1",
-        "city": "Lake Stevens",
+        "city": "Lake Stevens, 98258",
         "zip": "98258",
         "phone": "425-334-0604",
-        "url": "ljsbistroandbar.com/",
+        "url": "ljsbistroandbar.com",
         "imageurl": "https://static1.squarespace.com/static/5f6e3da5cc4319442086424c/t/5f7bf3d8183dc561daab4fea/1613663765025/?format=1500w"
       },
     
@@ -41,7 +41,7 @@
       {
         "name": "Contos Pizza Pasta Spirits",
         "streetaddress": "521 WA-9, Lake Stevens",
-        "city": "Lake Stevens",
+        "city": "Lake Stevens, 98258",
         "zip": "98258",
         "phone": "425-334-5034",
         "url": "contospizza.com",
@@ -50,7 +50,7 @@
       {
         "name": "Francisco's Kitchen & Cantina",
         "streetaddress": "1915 Hartford Drive",
-        "city": "Lake Stevens",
+        "city": "Lake Stevens, 98258",
         "zip": "98258",
         "phone": "425-512-8587",
         "url": "franciscoskitchenandcantina.com",
@@ -59,7 +59,7 @@
       {
         "name": "Farris & Furlan LLC",
         "streetaddress": "PO Box 1191",
-        "city": "Lake Stevens",
+        "city": "Lake Stevens, 98258",
         "zip": "98258",
         "phone": "425-626-2207",
         "url": "farrisandfurlan.com",
@@ -68,7 +68,7 @@
       {
         "name": "Frontier Village Mini Storage",
         "streetaddress": "8911 Vernon Rd",
-        "city": "Lake Stevens",
+        "city": "Lake Stevens, 98258",
         "zip": "98258",
         "phone": "425-334-6204",
         "url": "frontiervillagestorage.com",

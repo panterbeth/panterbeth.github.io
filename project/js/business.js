@@ -24,10 +24,10 @@ p1.textContent=business[i].city;
 card.appendChild(p1);
 document.querySelector("div.cards").appendChild(card); 
 
-let p3=document.createElement("p");
+/*let p3=document.createElement("p");
 p3.textContent=business[i].zip;
 card.appendChild(p3);
-document.querySelector("div.cards").appendChild(card);
+document.querySelector("div.cards").appendChild(card);*/
 
 let p4=document.createElement("p");
 p4.textContent=business[i].phone;
