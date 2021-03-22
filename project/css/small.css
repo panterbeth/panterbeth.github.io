@@ -317,7 +317,7 @@ form fieldset {
     
 }
 form{
-    max-width: max-content;
+    max-width: 400px;
    
 }
 
@@ -486,4 +486,13 @@ padding:1rem;
     }
     .org-contact p, .org-info p,.org-contact h3, .org-info h3{
         text-align: left;
+    }
+
+    #textbox{
+        width: 100%;
+  
+  
+  
+  box-sizing: border-box;
+  resize: vertical;
     }
