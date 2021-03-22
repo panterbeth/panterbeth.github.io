@@ -94,13 +94,15 @@ h2{
 h3{font-size:25px;}
 
 .founded{
-    display:block;
+    display:flex;
+    flex-flow:column;
+    float:left;
     
 }
 header{
-    display:grid;
-    grid-template-columns: 20% 80%;
-    grid-template-rows: 1fr;
+    display:flex;
+   /* grid-template-columns: 20% 80%;
+    grid-template-rows: 1fr;*/
    
    
 }
