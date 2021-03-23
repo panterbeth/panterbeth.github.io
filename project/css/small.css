@@ -209,10 +209,12 @@ input{
 	padding: 1.5rem;
 	box-shadow: 0 0 20px #111;
    opacity: .8;
-    margin:auto;
+    /*margin:auto;*/
+    
     text-align: center;
     width:max-content;
-   justify-self:center;
+    margin-left:1rem;
+   
 }
 
 
