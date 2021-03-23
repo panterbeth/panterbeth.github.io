@@ -499,3 +499,6 @@ padding:1rem;
   box-sizing: border-box;
   resize: vertical;
     }
+    .bold{
+        font-style:oblique;
+    }
