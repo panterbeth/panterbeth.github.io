@@ -116,6 +116,14 @@
             .weather{
                 margin-left:0;
             }
+            .demo-grid{
+                display:flex;
+                
+                
+                align-items: center;
+                
+            }
+      
    
     }
     

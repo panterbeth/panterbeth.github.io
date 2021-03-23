@@ -515,9 +515,6 @@ padding:1rem;
     .current-events p, .demo p{
         padding-bottom:1rem;
     }
-    .demo{
-
-    }
-    .current-events{
-
-    }
+   #hide-me{
+       display:none;
+   }

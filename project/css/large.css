@@ -141,5 +141,17 @@ margin:2.5rem;
 .mainforecast{
     margin-right:1rem;
 }*/
+.demo-grid{
+    display:grid;
+    grid-template-columns: 40% 60%;
+
+}
+#aerial-img{
+    display:grid;
+    grid-template-columns: 40% 60%;
+}
+#hide-me{
+    display:block;
+}
 
 }
