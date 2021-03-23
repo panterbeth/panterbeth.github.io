@@ -79,13 +79,13 @@
     font-size: 16px;
 }
 .weather-forecast{
-    /*display:grid;
-    grid-template-columns: 1fr 1fr;
+display:grid;
+    grid-template-columns: 40% 60%;
     grid-template-rows: 1fr;
-    margin: 2rem;*/
-    align-items:center;
-    justify-content: center;
-    padding:2rem;
+    margin: 1rem;
+    /*align-items:center;
+    justify-content: center;*/
+    padding:1rem;
    
 }
 header h1{
@@ -153,5 +153,8 @@ margin:2.5rem;
 #hide-me{
     display:block;
 }
+table { width:90%;
+}
+th { width:30%;}
 
 }

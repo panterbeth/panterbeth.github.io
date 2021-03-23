@@ -55,7 +55,7 @@
     h3{font-size:25px;}
 
     .weather-forecast{
-        display:flex;
+        display:grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
         margin: 2rem;
@@ -114,7 +114,8 @@
             margin-bottom:1rem;}*/
 
             .weather{
-                margin-left:0;
+                margin-left:auto;
+                margin-right:auto;
             }
             .demo-grid{
                 display:flex;

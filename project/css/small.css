@@ -157,7 +157,8 @@ max-width: 50px;
         background-color:rgba(154, 209, 117, 0.2);
         padding: 10px;
         border: 1px solid black;
-        margin: 10px;}
+        margin: 10px;
+        border-radius:5px;}
 
 
 .daysofweek{
@@ -205,6 +206,7 @@ input{
 	padding: 1.5rem;
 	box-shadow: 0 0 20px #111;
    opacity: .8;
+   border-radius:10px;
     /*margin:auto;*/
     
     text-align: center;
@@ -215,8 +217,9 @@ input{
 
 
 table, th{
-    border: 2px solid #104911;
+    border: 3px solid #104911;
     border-collapse:collapse;
+    
     padding: 10px;
     margin-left:auto;
     margin-right:auto;
@@ -231,18 +234,20 @@ table, td{
 }
 
 
+
 .mainforecast{
     display:none;
     
 }
-table { width:75%;
+table { width:90%;
 }
-th { width:20%;}
+th { width:30%;}
 
 
 .mainblocks div{
     padding:2rem;
     border: 2px solid #104911;
+    border-radius:10px;
     color:black;
     margin:1rem;
     
@@ -264,6 +269,7 @@ th { width:20%;}
      box-shadow: 0 0 15px #111;
      opacity: .9;
      margin:1rem;
+     border-radius:10px;
      text-align: center;
     
  }
@@ -279,6 +285,8 @@ th { width:20%;}
      display:grid;
      grid-template-columns: 1fr 1fr;
      margin: 2rem;
+   
+
  }
  .mainblocks div p{
      padding:.25rem;
@@ -340,7 +348,7 @@ form label.top input, form label.top select{
     display:block;
     font-size: 1rem;
     border: solid 1px #999;
-    border-radius: 4px;
+    border-radius: 5px;
     padding: .75rem 0;
     color: #555;
     width: 100%;
@@ -385,6 +393,7 @@ form label.top input:required:valid{
  .key{
      border: #548C2F solid 4px;
      padding: 1.5rem;
+     border-radius:10px;
      margin:1rem;
      text-align: center;
  }
@@ -402,21 +411,25 @@ form label.top input:required:valid{
  }
  .nonprof{
 background-color: rgba(170, 85, 0, .5);
+border-radius:10px;
  }
  .bronze{
 background-color:rgba(170, 85, 0, .7);
+border-radius:10px;
  }
  .silver{
 background-color: rgba(147, 144, 151, .7);
+border-radius:10px;
  }
  .gold{
 background-color:rgba(219, 180, 44, .7);
+border-radius:10px;
  }
 
  .cards{ 
     display:grid;
     grid-template-columns: 1fr;
-    
+    border-radius:10px;
     border:black solid 3px;
    padding: .8rem;
    background-color: rgba(154, 209, 117, 0.2);
