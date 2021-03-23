@@ -5,8 +5,6 @@ body{
     box-sizing: border-box;
     
 }
-
-
 header{
     display:flex;
     align-items:center;
@@ -31,9 +29,7 @@ nav button{
 }
 nav{
     background-color: #104911;
-   text-align:center;
-   
-   
+   text-align:center; 
 }
 
 nav ul{
@@ -389,7 +385,7 @@ form label.top input:required:valid{
  .key{
      border: #548C2F solid 4px;
      padding: 1.5rem;
-     margin:2.5rem;
+     margin:1rem;
      text-align: center;
  }
  .key h4{
@@ -501,4 +497,27 @@ padding:1rem;
     }
     .bold{
         font-style:oblique;
+    }
+    .history, .demo, .current-events{
+        border: 3px solid  #548C2F;
+        margin:1rem;
+        border-radius: 10px;
+        padding: 1.5rem;
+
+    }
+   
+    .current-events h4, .demo h4{
+        margin-bottom:.1rem;
+     font-size: 18px;
+     margin-top:-.1rem;
+
+    }
+    .current-events p, .demo p{
+        padding-bottom:1rem;
+    }
+    .demo{
+
+    }
+    .current-events{
+
     }
