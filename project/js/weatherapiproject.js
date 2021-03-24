@@ -73,12 +73,12 @@ fetch(forecastURL)
         let card= document.createElement("th");
         
 
-/*const imagesrc="https://openweathermap.org/img/w/" + jsonObject.list[i].weather[0].icon + ".png"; //note the concatenation
-const desc =jsonObject.list[i].weather[0].icon;
+const imagesrc="https://openweathermap.org/img/w/" + jsonObject.daily[i].weather[0].icon + ".png"; //note the concatenation
+const desc =jsonObject.daily[i].weather[0].icon;
 let image=document.createElement("img");
         image.setAttribute("src", imagesrc);
         image.setAttribute("alt", desc);
-        card.appendChild(image);*/
+        card.appendChild(image);
        
 
         let td= document.createElement("td");
