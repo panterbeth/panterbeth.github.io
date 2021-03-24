@@ -34,14 +34,20 @@ p4.textContent=business[i].phone;
 card.appendChild(p4);
 document.querySelector("div.cards").appendChild(card); 
 
-/*let abc=document.createElement("a");
-abc.setAttribute("href",business[i].url);
-abc.textContent=business[i].url;
-card.appendChild(a);*/
-let p5=document.createElement("p");
+let abc=document.createElement("a");
+let link=document.createTextNode(business[i].web);
+abc.appendChild(link);
+abc.title="This is Link";
+abc.href=business[i].url;
+abc.target="blank";
+//abc.setAttribute("href",business[i].url);
+//abc.textContent=business[i].url;
+card.appendChild(abc);
+
+/*let p5=document.createElement("p");
 p5.textContent=business[i].url;
 card.appendChild(p5);
-document.querySelector("div.cards").appendChild(card); 
+document.querySelector("div.cards").appendChild(card); */
 
         let image=document.createElement("img");
         image.setAttribute("src", business[i].imageurl);

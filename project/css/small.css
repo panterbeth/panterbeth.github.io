@@ -453,9 +453,12 @@ padding:1rem;
     font-size: 16px;
 }
 .cards h3, p{
-    text-align: center;
+    
     margin-bottom:.5rem;
     
+}
+.cards{
+    text-align:center;
 }
 /*h1{text-align:center;
     
