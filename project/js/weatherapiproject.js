@@ -1,17 +1,17 @@
-const apiURL="https://api.openweathermap.org/data/2.5/weather?lat=48.0151&lon=-122.0637&appid=d211895bcb1310c1dd13ddc706b3bb98"
+const apiURL="https://api.openweathermap.org/data/2.5/onecall?lat=48.0151&lon=-122.0637&appid=d211895bcb1310c1dd13ddc706b3bb98"
 fetch(apiURL)
 .then((response)=> response.json())
 .then((jsObject)=>{
     console.log(jsObject)
-    document.getElementById("weather").textContent=jsObject.weather[0].description;
+    document.getElementById("weather").textContent=jsObject.current.weather[0].description;
 
-    document.getElementById("current").textContent=((jsObject.main.temp-273.15)*(9/5)+32).toFixed(0);
+    document.getElementById("current").textContent=((jsObject.current.temp-273.15)*(9/5)+32).toFixed(0);
     
 
-    document.getElementById("high").textContent=((jsObject.main.temp_max-273.15)*(9/5)+32).toFixed(0);
-    document.getElementById("humidity").textContent=jsObject.main.humidity+"%";
-    document.getElementById("windspeed").textContent=jsObject.wind.speed;
-    document.getElementById("windchill").textContent=doInputOutput(((jsObject.main.temp-273.15)*(9/5)+32),jsObject.wind.speed);
+    document.getElementById("high").textContent=((jsObject.daily[0].temp.max-273.15)*(9/5)+32).toFixed(0);
+    document.getElementById("humidity").textContent=jsObject.current.humidity+"%";
+    document.getElementById("windspeed").textContent=jsObject.current.wind_speed;
+    document.getElementById("windchill").textContent=doInputOutput(((jsObject.current.temp-273.15)*(9/5)+32),jsObject.current.wind_speed);
 })
 
 

@@ -449,7 +449,7 @@ padding:1rem;
     
     padding:1rem;  
 }
-.cards p{
+.cards {
     font-size: 16px;
 }
 .cards h3, p{
