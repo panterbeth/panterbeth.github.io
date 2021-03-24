@@ -66,7 +66,7 @@ fetch(forecastURL)
     const daily = jsonObject["daily"];
     for(let i=0; i<(daily.length-5); i++){
       
-        let extract=daily[i].temp.day;
+       // let extract=daily[i].temp.day;
         //if(extract=="12:00:00"){
             
         
