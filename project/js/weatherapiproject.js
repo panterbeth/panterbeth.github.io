@@ -82,7 +82,9 @@ alert(message);
   
 });*/
 
-//this was my test for a city that had an active alert. The page had no javascript errors with an active alert.
+//this was my test for a city that had an active alert at least on 3/24/21 when I wrote this script. The page had no javascript errors with an active alert.
+//It also brought up two alert messages that were able to be closed by clicking them shut.
+
 const corpustestURL="https://api.openweathermap.org/data/2.5/onecall?lat=27.8006&lon=-97.3964&appid=d211895bcb1310c1dd13ddc706b3bb98"
 fetch(corpustestURL)
 .then(function(response){
@@ -90,9 +92,13 @@ fetch(corpustestURL)
 })
 .then(function (jsonObject){
     console.table(jsonObject);
+    
     const alerts=jsonObject["alerts"];
-const message2="";
-for(let i=0; i<(alerts.length); i++){
+    
+    if(jsonObject.hasOwnProperty("alerts")){
+    for(let i=0; i<(alerts.length); i++){
+        
+    
     let extract=alerts[i].description;
     
       
@@ -103,9 +109,9 @@ alert (extract);
  
   
     
+    }
 
-    
-  }
+}
 
 });
 
@@ -117,7 +123,8 @@ fetch(lakeURL)
 .then(function (jsonObject){
     console.table(jsonObject);
     const alerts=jsonObject["alerts"];
-const message2="";
+
+    if(jsonObject.hasOwnProperty("alerts")){
 for(let i=0; i<(alerts.length); i++){
     let extract=alerts[i].description;
       
@@ -125,7 +132,7 @@ for(let i=0; i<(alerts.length); i++){
 
 alert (extract);  
 
-    
+}
   }
 
 });
