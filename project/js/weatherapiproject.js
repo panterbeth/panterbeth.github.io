@@ -99,17 +99,23 @@ fetch(alabamatestURL)
     if(jObject.hasOwnProperty("alerts")){
     for(let i=0; i<(alerts.length); i++){
         
-    
+        
     let extract=alerts[i].description;
     let p=document.createElement("p");
     p.textContent=extract;
+    p.style.display="red";
     let btn=document.createElement("button");
-    btn.className="hidemebutton";
+    //btn.className="hidemebutton";
     btn.innerHTML="Click to Close";
     btn.onclick=function(){
-        card2.style.display="none";
+        p.style.display="none";
     };
-    card2.style.display="red";
+    /*let btn2=document.createElement("button");
+    btn2.innerHTML="Click to Open";
+    btn2.onlick=function(){
+        p.style.display="visible";
+    }
+    card2.appendChild(btn2);*/
     card2.appendChild(p);
     card2.appendChild(btn);
     document.querySelector("aside.weather-alert").appendChild(card2);
@@ -126,7 +132,10 @@ fetch(alabamatestURL)
   
     
     }
-    
+    //else{
+        //card2.style.display="none";
+     //   document.querySelector("aside.weather-alert").appendChild(card2);
+   // }
 }
 //function removeElement(){
    // document.getElementsByClassName("hidemebutton").style.display="none";
