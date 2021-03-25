@@ -85,8 +85,9 @@ alert(message);
 //this was my test for a city that had an active alert at least on 3/24/21 when I wrote this script. The page had no javascript errors with an active alert.
 //It also brought up two alert messages that were able to be closed by clicking them shut.
 
-const corpustestURL="https://api.openweathermap.org/data/2.5/onecall?lat=27.8006&lon=-97.3964&appid=d211895bcb1310c1dd13ddc706b3bb98"
-fetch(corpustestURL)
+//const corpustestURL="https://api.openweathermap.org/data/2.5/onecall?lat=27.8006&lon=-97.3964&appid=d211895bcb1310c1dd13ddc706b3bb98"
+const alabamatestURL="https://api.openweathermap.org/data/2.5/onecall?lat=32.7504&lon=-86.7503&appid=d211895bcb1310c1dd13ddc706b3bb98"
+fetch(alabamatestURL)
 .then(function(response){
     return response.json();
 })
@@ -94,25 +95,42 @@ fetch(corpustestURL)
     console.table(jObject);
     
     const alerts=jObject["alerts"];
-    
+    let card2=document.createElement("div");
     if(jObject.hasOwnProperty("alerts")){
     for(let i=0; i<(alerts.length); i++){
         
     
     let extract=alerts[i].description;
+    let p=document.createElement("p");
+    p.textContent=extract;
+    let btn=document.createElement("button");
+    btn.className="hidemebutton";
+    btn.innerHTML="Click to Close";
+    btn.onclick=function(){
+        card2.style.display="none";
+    };
+    card2.style.display="red";
+    card2.appendChild(p);
+    card2.appendChild(btn);
+    document.querySelector("aside.weather-alert").appendChild(card2);
+
+
+    
     
     //document.getElementById("weather-alert").innerHTML = extract;
 
 
-alert (extract);
+//alert (extract);
 
  
   
     
     }
-
+    
 }
-
+//function removeElement(){
+   // document.getElementsByClassName("hidemebutton").style.display="none";
+  //  }
 });
 
 const lakeURL="https://api.openweathermap.org/data/2.5/onecall?lat=48.0151&lon=-122.0637&appid=d211895bcb1310c1dd13ddc706b3bb98"

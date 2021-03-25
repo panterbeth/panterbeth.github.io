@@ -489,3 +489,14 @@ padding:1rem;
    #hide-me{
        display:none;
    }
+   aside{
+    background-color:rgba(248,182,45);
+    color:#2B2727;
+    font-family: 'Fraunces', serif;
+    position:absolute;
+    text-align: center;
+    padding: .5rem;
+    display:block;
+    width:100%;
+
+}
