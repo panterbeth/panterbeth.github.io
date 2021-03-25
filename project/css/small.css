@@ -59,15 +59,7 @@ nav ul.hide {display:none;}
     display: table;
     clear: both;
   }
- /* .content{
-      display:block;
-      color: #2B2727;
-      background-color:rgba(202, 232, 247, 0.3);
-      padding: 10px;
-      border: 1px solid black;
-      margin: 10px;
-      
-  }*/
+ 
   main footer { 
       
       margin: auto;
@@ -123,29 +115,13 @@ div img{
     display:block; margin-left:auto; margin-right:auto; box-sizing:border-box; width:100%;
     padding:1rem;
 }
-/*aside{
-    background-color:rgba(248,182,45);
-    color:#2B2727;
-    font-family: 'Fraunces', serif;
-    position:absolute;
-    text-align: center;
-    padding: .5rem;
-    display:block;
-    width:100%;
 
-}*/
 h2{
     padding:2rem;
     font-size: 25px;
 }
 h3{font-size:20px;}
 
-
-/*#icon-map{width:80px;
-max-width: 50px;
-
-
-}*/
 #mediapic{
     max-width: 150px;
 }
@@ -165,28 +141,10 @@ max-width: 50px;
     background-color:#9AD175;
     color:black;
 }
-/*#threedayheader{
-
-    text-align: center;
-    
-
-}*/
 
 .mainforecast{
     display:none;
 }
-
-/*#map-icon{
-    color:black;
-    
-}*/
-/*
-#button{
-    background-color:#104911;
-}
-input{
-    width:2rem;
-}*/
 
 
 .myphoto{
@@ -207,7 +165,7 @@ input{
 	box-shadow: 0 0 20px #111;
    opacity: .8;
    border-radius:10px;
-    /*margin:auto;*/
+    
     
     text-align: center;
     width:max-content;
@@ -261,9 +219,7 @@ th { width:30%;}
      
      
      display:block;
-     /*background: radial-gradient(#eee, #9AD175);*/
-     background: radial-gradient(white,rgba(255, 203, 31, 0.8));
-     /*background: lineal-gradient(white, #FFCB1F);*/
+      background: radial-gradient(white,rgba(255, 203, 31, 0.8));
      border: 2px solid #104911;
      padding: 1.5rem;
      box-shadow: 0 0 15px #111;
@@ -441,7 +397,6 @@ padding:1rem;
 }
 .cards section{
     background-color:white;
-    /*background-color: rgb(224, 240, 245, 0.8);*/
     border: 3px dashed #104911;
     margin-left:auto; margin-right:auto; box-sizing:border-box; 
     margin-top:.5rem;
@@ -460,10 +415,7 @@ padding:1rem;
 .cards{
     text-align:center;
 }
-/*h1{text-align:center;
-    
 
-}*/
 .cards img{
     display:block; margin-left:auto; margin-right:auto; box-sizing:border-box; max-width:150px;
     padding:1rem;
@@ -530,6 +482,9 @@ padding:1rem;
     }
     .current-events p, .demo p{
         padding-bottom:1rem;
+    }
+    .demo p, .demo h4{
+        text-align: left;
     }
    #hide-me{
        display:none;
