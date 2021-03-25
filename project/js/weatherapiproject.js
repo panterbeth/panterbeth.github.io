@@ -8,7 +8,7 @@ fetch(apiURL)
     document.getElementById("current").textContent=((jsObject.current.temp-273.15)*(9/5)+32).toFixed(0);
     
 
-    document.getElementById("high").textContent=((jsObject.daily[0].temp.max-273.15)*(9/5)+32).toFixed(0);
+    //document.getElementById("high").textContent=((jsObject.daily[0].temp.max-273.15)*(9/5)+32).toFixed(0);
     document.getElementById("humidity").textContent=jsObject.current.humidity+"%";
     document.getElementById("windspeed").textContent=jsObject.current.wind_speed;
     document.getElementById("windchill").textContent=doInputOutput(((jsObject.current.temp-273.15)*(9/5)+32),jsObject.current.wind_speed);
@@ -90,18 +90,18 @@ fetch(corpustestURL)
 .then(function(response){
     return response.json();
 })
-.then(function (jsonObject){
-    console.table(jsonObject);
+.then(function (jObject){
+    console.table(jObject);
     
-    const alerts=jsonObject["alerts"];
+    const alerts=jObject["alerts"];
     
-    if(jsonObject.hasOwnProperty("alerts")){
+    if(jObject.hasOwnProperty("alerts")){
     for(let i=0; i<(alerts.length); i++){
         
     
     let extract=alerts[i].description;
     
-      
+    //document.getElementById("weather-alert").innerHTML = extract;
 
 
 alert (extract);
