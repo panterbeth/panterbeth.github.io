@@ -66,8 +66,7 @@ fetch(forecastURL)
     const daily = jsonObject["daily"];
     for(let i=0; i<(daily.length-5); i++){
       
-       // let extract=daily[i].temp.day;
-        //if(extract=="12:00:00"){
+       
             
         
         let card= document.createElement("th");
@@ -89,10 +88,67 @@ document.querySelector("table.threeday").appendChild(card);
 
 document.querySelector("table.threeday").appendChild(card);
 
-//}
+
 
 
     
 }
+
+});
+
+
+
+/*const alertURL="https://api.openweathermap.org/data/2.5/onecall?lat=48.0151&lon=-122.0637&appid=d211895bcb1310c1dd13ddc706b3bb98"
+fetch(alertURL)
+.then(function(response){
+    return response.json();
+})
+.then(function (jsonObject){
+    console.table(jsonObject);
+    
+const message=jsonObject.alerts.description;
+
+alert (message);
+
+   /*this worked to get an alert conditionally
+   const message=jsonObject.current.weather[0].description;
+    
+
+  if(message=="broken clouds"){
+alert(message);
+    
+   
+  
+  // }
+  
+    
+
+    
+
+
+});*/
+
+const corpustestURL="https://api.openweathermap.org/data/2.5/onecall?lat=27.8006&lon=-97.3964&appid=d211895bcb1310c1dd13ddc706b3bb98"
+fetch(corpustestURL)
+.then(function(response){
+    return response.json();
+})
+.then(function (jsonObject){
+    console.table(jsonObject);
+    const alerts=jsonObject["alerts"];
+const message2="";
+for(let i=0; i<(alerts.length); i++){
+    let extract=alerts[i].description;
+      
+
+
+alert (extract);
+
+ 
+  
+    
+
+    
+  }
 
 });
